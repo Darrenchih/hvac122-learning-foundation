@@ -24,13 +24,13 @@ def run():
    for c in q['choices']:
     page.fill('#'+c['id']+'-en',c['text_en']);page.fill('#'+c['id']+'-zh',c['text_zh']);page.fill('#'+c['id']+'-reason-en',q['choice_explanations'][c['id']]['en']);page.fill('#'+c['id']+'-reason-zh',q['choice_explanations'][c['id']]['zh'])
    page.locator('#eligible').check();page.locator('[data-action="save-item"]').click();page.wait_for_function("localStorage.getItem('hvac122.content.draft.v1')!==null")
-   page.locator('[data-action="tab"][data-id="home"]').click();page.locator('[data-action="publish-preview"]').click();page.locator('[data-action="publish"]').click();page.locator('a[href="index.html"]').click();assert page.evaluate('HVAC_BANK.questions.length')==301;passed('manual authoring and publication visible in learning bank')
+   page.locator('[data-action="tab"][data-id="home"]').click();page.locator('[data-action="publish-preview"]').click();page.locator('[data-action="publish"]').click();page.locator('a[href="index.html"]').click();page.locator('nav [data-act="nav"][data-page="practice"]').wait_for();assert page.evaluate('HVAC_BANK.questions.length')==301;passed('manual authoring and publication visible in learning bank')
    page.locator('[data-act="nav"][data-page="manage"]').click();page.locator('[data-action="tab"][data-id="resources"]').click();payload=b'Local original course notes - browser acceptance test.'
    page.locator('#attachment').set_input_files({'name':'acceptance-notes.txt','mimeType':'text/plain','buffer':payload});page.locator('.row').filter(has_text='acceptance-notes.txt').wait_for();passed('save original local attachment to IndexedDB')
    ctx.close();ctx=p.chromium.launch_persistent_context(profile,headless=True,**options());ctx.route('**/*',lambda route:route.continue_() if route.request.url.startswith(url+'/') else route.abort());page=ctx.new_page();page.goto(url+'/manage.html');page.locator('[data-action="tab"][data-id="resources"]').click();page.locator('.row').filter(has_text='acceptance-notes.txt').wait_for()
    with page.expect_download() as d:page.locator('[data-action="file-download"]').click()
    downloaded=pathlib.Path(profile)/'returned.txt';d.value.save_as(downloaded);assert hashlib.sha256(downloaded.read_bytes()).digest()==hashlib.sha256(payload).digest();passed('actual browser restart preserves attachment bytes')
-   page.goto(url+'/');assert page.evaluate('HVAC_BANK.questions.length')==301;assert not errors,errors;passed('actual browser restart preserves published content');ctx.close();return 0
+   page.goto(url+'/');page.locator('nav [data-act="nav"][data-page="practice"]').wait_for();assert page.evaluate('HVAC_BANK.questions.length')==301;assert not errors,errors;passed('actual browser restart preserves published content');ctx.close();return 0
  finally:server.shutdown();server.server_close()
 if __name__=='__main__':
  try:code=run()

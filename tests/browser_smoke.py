@@ -2,24 +2,34 @@
 Windows default: installed Edge. Linux default: /usr/bin/chromium.
 A failed launch returns 77 (BLOCKED), never a passing result.
 """
-import os,sys,json,tempfile,pathlib,traceback
+import os,sys,json,tempfile,pathlib,traceback,threading,functools
+from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from playwright.sync_api import sync_playwright
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 results=[]
 def ok(name):results.append({'name':name,'status':'passed'});print('PASS',name)
 def options():
- if os.environ.get('HVAC_BROWSER'):return {'executable_path':os.environ['HVAC_BROWSER']}
- return {'channel':'msedge'} if os.name=='nt' else {'executable_path':'/usr/bin/chromium','args':['--no-sandbox']}
+ if os.environ.get('HVAC_BROWSER'):return {'executable_path':os.environ['HVAC_BROWSER'],'timezone_id':'America/Toronto'}
+ return {'channel':'msedge','timezone_id':'America/Toronto'} if os.name=='nt' else {'executable_path':'/usr/bin/chromium','args':['--no-sandbox'],'timezone_id':'America/Toronto'}
+class QuietHandler(SimpleHTTPRequestHandler):
+ def log_message(self,*args):pass
+class LocalServer:
+ def __enter__(self):
+  self.server=ThreadingHTTPServer(('127.0.0.1',0),functools.partial(QuietHandler,directory=str(ROOT/'app')))
+  threading.Thread(target=self.server.serve_forever,daemon=True).start()
+  return 'http://127.0.0.1:'+str(self.server.server_port)
+ def __exit__(self,*args):self.server.shutdown();self.server.server_close()
+
 def run():
  errors=[];external=[]
- with tempfile.TemporaryDirectory(prefix='hvac-browser-') as profile,sync_playwright() as p:
+ with LocalServer() as url,tempfile.TemporaryDirectory(prefix='hvac-browser-') as profile,sync_playwright() as p:
   try:ctx=p.chromium.launch_persistent_context(profile,headless=True,**options())
   except Exception as exc:
    results.append({'name':'browser_launch','status':'blocked','reason':str(exc)[:1200]});return 77
   page=ctx.new_page();page.on('pageerror',lambda x:errors.append(str(x)))
-  page.on('request',lambda r:external.append(r.url) if r.url.startswith(('http:','https:')) else None)
-  ctx.set_offline(True);page.goto((ROOT/'app/index.html').as_uri());page.locator('h1').filter(has_text='今天').wait_for();ok('offline initial load')
-  page.locator('[data-act="nav"][data-page="practice"]').click()
+  page.on('request',lambda r:external.append(r.url) if r.url.startswith(('http:','https:')) and not r.url.startswith(url+'/') else None)
+  ctx.route('**/*',lambda r:r.continue_() if r.request.url.startswith(url+'/') else r.abort());page.goto(url+'/');page.locator('h1').filter(has_text='今天').wait_for();ctx.set_offline(True);ok('local load with external network blocked; practice runs offline')
+  page.locator('nav [data-act="nav"][data-page="practice"]').click()
   page.select_option('#practice-mode','chapter');page.select_option('#practice-chapter','2');page.fill('#practice-count','2');page.locator('[data-act="start-practice"]').click()
   assert page.locator('.translation').count()==0
   assert page.locator('[data-testid="explanation"]').count()==0
@@ -31,9 +41,9 @@ def run():
   assert page.locator('[data-testid="explanation"]').count()==1
   assert 'Incorrect' in page.locator('[data-testid="explanation"]').inner_text();ok('submitted result and full explanation')
   page.locator('[data-reason]').select_option(label='計算錯誤')
-  page.reload();assert 'Incorrect' in page.locator('[data-testid="explanation"]').inner_text();ok('reload preserves answer and wrong record')
+  ctx.set_offline(False);page.reload();page.locator('[data-testid="explanation"]').wait_for();ctx.set_offline(True);assert 'Incorrect' in page.locator('[data-testid="explanation"]').inner_text();ok('reload preserves answer and wrong record')
   ctx.close()
-  ctx=p.chromium.launch_persistent_context(profile,headless=True,**options());ctx.set_offline(True);page=ctx.new_page();page.on('pageerror',lambda x:errors.append(str(x)));page.goto((ROOT/'app/index.html').as_uri())
+  ctx=p.chromium.launch_persistent_context(profile,headless=True,**options());ctx.route('**/*',lambda r:r.continue_() if r.request.url.startswith(url+'/') else r.abort());page=ctx.new_page();page.on('pageerror',lambda x:errors.append(str(x)));page.on('request',lambda r:external.append(r.url) if r.url.startswith(('http:','https:')) and not r.url.startswith(url+'/') else None);page.goto(url+'/');page.locator('[data-testid="explanation"]').wait_for();ctx.set_offline(True)
   assert 'Incorrect' in page.locator('[data-testid="explanation"]').inner_text();assert page.locator('[data-reason]').input_value()=='計算錯誤';ok('actual browser process restart preserves learning data')
   page.locator('[data-act="end-session"]').click();page.locator('[data-act="nav"][data-page="exam"]').click();page.select_option('#exam-count','custom');page.fill('#exam-custom','2');page.locator('[data-act="start-exam"]').click()
   for i in range(2):
@@ -55,5 +65,6 @@ def run():
   assert not errors,errors;assert not external,external;ok('zero script errors and zero external requests while offline');ctx.close();return 0
 if __name__=='__main__':
  try:code=run()
+ except PermissionError as exc:results.append({'name':'local_browser_environment','status':'blocked','reason':str(exc)});code=77
  except Exception as exc:results.append({'name':'browser_flow','status':'failed','reason':str(exc)});traceback.print_exc();code=1
  (ROOT/'reports/browser-results.json').write_text(json.dumps({'exitCode':code,'results':results},ensure_ascii=False,indent=2),encoding='utf-8');sys.exit(code)

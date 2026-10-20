@@ -114,4 +114,4 @@ CLI 匯出／合併拒絕覆蓋既有輸出 JSON，請使用新檔名。`build` 
 
 ## 測試界線
 
-提供內容格式／計算驗證、差異存取、發布、ID 修訂保護、考試篩選及管理／練習整合的自動測試。VM 介面模擬不是實際瀏覽器測試。原始附件 IndexedDB、真實雙頁管理／練習及 Windows CMD／PowerShell 仍須在實際瀏覽器／Windows 驗收，不能因程式測試通過而當成已實測。
+提供內容格式／計算驗證、差異存取、發布、ID 修訂保護、考試篩選及管理／練習整合的自動測試。VM 介面模擬不是實際瀏覽器測試。Linux Chromium 的原始附件 IndexedDB、雙頁管理／練習及實際關閉重開已完成測試。Windows CMD／PowerShell 仍須實機驗收，不可把 Linux 測試當成 Windows 實測。

@@ -51,6 +51,12 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start.ps1
 
 完整提示詞：[開始使用](prompts/START_HERE_ZH.md)、[補題](prompts/ADD_QUESTIONS_ZH.md)、[建立考試](prompts/CREATE_EXAM_ZH.md)、[英文開發交接](prompts/DEVELOPER_HANDOFF_EN.md)。
 
+## 實際畫面
+
+以下為 Chromium 測試產生的示範學習紀錄，沒有私人教材或真實個人學習資料。
+
+![桌面學習總覽](reports/screenshot-desktop.png)
+
 ## 加入內容
 
 左側 **內容管理** → 新增／編輯 → 儲存草稿 → 更新內容版本 → 檢查並發布 → 回到練習。
@@ -95,7 +101,7 @@ node scripts/content_cli.cjs build merged.json C:\HVAC122_CustomBuild
 
 匯出／合併輸出檔及 build 目錄需為新路徑，避免覆蓋既有檔案。
 
-本次本機可執行檢查 **67 項通過**。真實瀏覽器受開發沙箱限制為 **BLOCKED**，Windows CMD／PowerShell **未實機驗證**；VM 管理頁模擬不等於瀏覽器或附件 IndexedDB 實測。CI 的實際狀態請看 GitHub Actions，不預先宣稱通過。
+本次 **67 項資料／邏輯／模擬檢查通過**，另有 **16 個真實 Chromium 流程檢查點通過**：離線作答、翻譯、程序重開保存、考試解析隔離、備份還原、內容發布及 IndexedDB 附件逐位元保存。Windows CMD／PowerShell **尚未實機驗證**。CI 狀態請看 GitHub Actions，不預先宣稱線上執行通過。
 
 ## 目錄
 
