@@ -1,7 +1,7 @@
 """Run reproducible checks; BLOCKED is never converted to PASS."""
 import subprocess,sys,pathlib,json,datetime
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-commands=[('bank_audit',[sys.executable,'tests/audit_bank.py'],12),('core_logic',['node','tests/test_core.cjs'],14),('render_event_harness',['node','tests/ui_harness.cjs'],9),('content_contract',['node','tests/test_content.cjs'],17),('management_harness',['node','tests/manager_harness.cjs'],9),('content_schema_cli',[sys.executable,'tests/audit_content.py'],6)]
+commands=[('bank_audit',[sys.executable,'tests/audit_bank.py'],12),('core_logic',['node','tests/test_core.cjs'],14),('render_event_harness',['node','tests/ui_harness.cjs'],9),('content_contract',['node','tests/test_content.cjs'],17),('management_harness',['node','tests/manager_harness.cjs'],10),('content_schema_cli',[sys.executable,'tests/audit_content.py'],6)]
 if '--browser' in sys.argv:
  commands.append(('real_browser',[sys.executable,'tests/browser_smoke.py'],None))
  commands.append(('real_content_browser',[sys.executable,'tests/browser_content_smoke.py'],None))

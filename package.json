@@ -1,6 +1,6 @@
 {
   "name": "hvac122-learning-foundation",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "description": "Dependency-free local bilingual HVAC electrical review; no runtime network",
   "scripts": {

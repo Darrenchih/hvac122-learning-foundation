@@ -101,7 +101,7 @@ node scripts/content_cli.cjs build merged.json C:\HVAC122_CustomBuild
 
 匯出／合併輸出檔及 build 目錄需為新路徑，避免覆蓋既有檔案。
 
-本次 **67 項資料／邏輯／模擬檢查通過**，另有 **16 個真實 Chromium 流程檢查點通過**：離線作答、翻譯、程序重開保存、考試解析隔離、備份還原、內容發布及 IndexedDB 附件逐位元保存。Windows CMD／PowerShell **尚未實機驗證**。CI 狀態請看 GitHub Actions，不預先宣稱線上執行通過。
+本次 **68 項資料／邏輯／模擬檢查通過**，另有 **16 個真實 Chromium 流程檢查點通過**：離線作答、翻譯、程序重開保存、考試解析隔離、備份還原、內容發布及 IndexedDB 附件逐位元保存。Windows CMD／PowerShell **尚未實機驗證**。CI 狀態請看 GitHub Actions，不預先宣稱線上執行通過。
 
 ## 目錄
 
