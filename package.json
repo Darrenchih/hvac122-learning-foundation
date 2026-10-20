@@ -1,0 +1,20 @@
+{
+  "name": "hvac122-learning-foundation",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Dependency-free local bilingual HVAC electrical review; no runtime network",
+  "scripts": {
+    "test": "node tests/test_core.cjs && node tests/ui_harness.cjs && node tests/test_content.cjs && node tests/manager_harness.cjs",
+    "build:data": "python scripts/build_data.py",
+    "audit": "python tests/audit_bank.py",
+    "content:validate": "node scripts/content_cli.cjs validate"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Darrenchih/hvac122-learning-foundation.git"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HVAC-122 reusable content pack v1",
+  "type": "object",
+  "required": [
+    "format",
+    "schemaVersion",
+    "version",
+    "title",
+    "chapters",
+    "knowledge",
+    "questions",
+    "examProfiles",
+    "resources"
+  ],
+  "properties": {
+    "format": {
+      "const": "hvac122-content-pack"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "version": {
+      "$ref": "#/$defs/text"
+    },
+    "title": {
+      "$ref": "#/$defs/text"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name_en",
+          "name_zh"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "name_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "knowledge_ids": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "knowledge": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "chapter",
+          "topic_key",
+          "term_en",
+          "term_zh",
+          "definition_en",
+          "explanation_zh",
+          "hvac_application",
+          "related_formulas",
+          "common_misconceptions",
+          "source_reference",
+          "verification_status",
+          "content_class",
+          "exam_note_en",
+          "source_limitations"
+        ],
+        "properties": {
+          "topic_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "term_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "term_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "explanation_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "hvac_application": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verification_status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "content_class": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exam_note_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_limitations": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "chapter": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "related_formulas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "common_misconceptions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_reference": {
+            "type": "object",
+            "required": [
+              "file",
+              "record"
+            ],
+            "properties": {
+              "file": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "related_question_ids": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "knowledge_ids",
+          "chapter",
+          "topic",
+          "difficulty",
+          "type",
+          "question_en",
+          "question_zh",
+          "choices",
+          "correct_choice",
+          "explanation_en",
+          "explanation_zh",
+          "choice_explanations",
+          "source_reference",
+          "verification_status",
+          "eligible",
+          "original_teacher_question"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "knowledge_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/$defs/id"
+            }
+          },
+          "chapter": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "difficulty": {
+            "enum": [
+              "basic",
+              "intermediate",
+              "applied"
+            ]
+          },
+          "type": {
+            "enum": [
+              "recall",
+              "understanding",
+              "application",
+              "calculation"
+            ]
+          },
+          "question_en": {
+            "$ref": "#/$defs/text"
+          },
+          "question_zh": {
+            "$ref": "#/$defs/text"
+          },
+          "explanation_en": {
+            "$ref": "#/$defs/text"
+          },
+          "explanation_zh": {
+            "$ref": "#/$defs/text"
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "text_en",
+                "text_zh"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                  ]
+                },
+                "text_en": {
+                  "$ref": "#/$defs/text"
+                },
+                "text_zh": {
+                  "$ref": "#/$defs/text"
+                }
+              }
+            }
+          },
+          "correct_choice": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "choice_explanations": {
+            "type": "object",
+            "required": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "A": {
+                "$ref": "#/$defs/reason"
+              },
+              "B": {
+                "$ref": "#/$defs/reason"
+              },
+              "C": {
+                "$ref": "#/$defs/reason"
+              },
+              "D": {
+                "$ref": "#/$defs/reason"
+              }
+            }
+          },
+          "source_reference": {
+            "type": "object",
+            "required": [
+              "file",
+              "record",
+              "original_verified",
+              "note"
+            ],
+            "properties": {
+              "file": {
+                "$ref": "#/$defs/text"
+              },
+              "record": {
+                "$ref": "#/$defs/text"
+              },
+              "original_verified": {
+                "type": "boolean"
+              },
+              "note": {
+                "$ref": "#/$defs/text"
+              }
+            }
+          },
+          "verification_status": {
+            "$ref": "#/$defs/text"
+          },
+          "eligible": {
+            "type": "boolean"
+          },
+          "original_teacher_question": {
+            "type": "boolean"
+          },
+          "calculation": {
+            "type": "object",
+            "required": [
+              "model",
+              "inputs",
+              "answer",
+              "unit"
+            ],
+            "properties": {
+              "model": {
+                "$ref": "#/$defs/text"
+              },
+              "inputs": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "number"
+                }
+              },
+              "answer": {
+                "type": "number"
+              },
+              "unit": {
+                "enum": [
+                  "A",
+                  "V",
+                  "Ω",
+                  "W",
+                  "kWh"
+                ]
+              },
+              "tolerance": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          },
+          "publishedOnce": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "examProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "count",
+          "minutes",
+          "chapters",
+          "types",
+          "questionIds",
+          "enabled"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 300
+          },
+          "minutes": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 600
+              }
+            ]
+          },
+          "chapters": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          "types": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "recall",
+                "understanding",
+                "application",
+                "calculation"
+              ]
+            }
+          },
+          "questionIds": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "uniqueItems": true
+          },
+          "enabled": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "text",
+          "source",
+          "kind",
+          "chapter",
+          "verified"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "lecture",
+              "lab",
+              "exam",
+              "other"
+            ]
+          },
+          "chapter": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              }
+            ]
+          },
+          "verified": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reason": {
+      "type": "object",
+      "required": [
+        "en",
+        "zh"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "$ref": "#/$defs/text"
+        },
+        "zh": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,95}$"
+    }
+  }
+}

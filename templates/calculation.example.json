@@ -1,0 +1,10 @@
+{
+  "model": "ohm_current",
+  "inputs": {
+    "V": 24,
+    "R": 12
+  },
+  "answer": 2.0,
+  "unit": "A",
+  "tolerance": 1e-05
+}

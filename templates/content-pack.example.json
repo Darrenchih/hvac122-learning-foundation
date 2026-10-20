@@ -1,0 +1,247 @@
+{
+  "format": "hvac122-content-pack",
+  "schemaVersion": 1,
+  "version": "example-1",
+  "title": "HVAC-122 內容包範例（新題保持草稿）",
+  "chapters": [
+    {
+      "id": 1,
+      "name_en": "Electrical Safety",
+      "name_zh": "用電安全",
+      "knowledge_ids": [
+        "CH01-001",
+        "CH01-002",
+        "CH01-003",
+        "CH01-004",
+        "CH01-005",
+        "CH01-006",
+        "CH01-007",
+        "CH01-008",
+        "CH01-009",
+        "CH01-010",
+        "CH01-011",
+        "CH01-012",
+        "CH01-013"
+      ]
+    },
+    {
+      "id": 2,
+      "name_en": "Basic Electricity",
+      "name_zh": "電學基礎",
+      "knowledge_ids": [
+        "CH02-001",
+        "CH02-002",
+        "CH02-003",
+        "CH02-004",
+        "CH02-005",
+        "CH02-006",
+        "CH02-007",
+        "CH02-008",
+        "CH02-009",
+        "CH02-010",
+        "CH02-011",
+        "CH02-012",
+        "CH02-013",
+        "CH02-014",
+        "CH02-015"
+      ]
+    },
+    {
+      "id": 3,
+      "name_en": "Electric Circuits",
+      "name_zh": "電路",
+      "knowledge_ids": [
+        "CH03-001",
+        "CH03-002",
+        "CH03-003",
+        "CH03-004",
+        "CH03-005",
+        "CH03-006",
+        "CH03-007",
+        "CH03-008",
+        "CH03-009",
+        "CH03-010",
+        "CH03-011",
+        "CH03-012",
+        "CH03-013"
+      ]
+    },
+    {
+      "id": 4,
+      "name_en": "Electric Meters",
+      "name_zh": "電表",
+      "knowledge_ids": [
+        "CH04-001",
+        "CH04-002",
+        "CH04-003",
+        "CH04-004",
+        "CH04-005",
+        "CH04-006",
+        "CH04-007",
+        "CH04-008",
+        "CH04-009",
+        "CH04-010",
+        "CH04-011",
+        "CH04-012",
+        "CH04-013",
+        "CH04-014"
+      ]
+    },
+    {
+      "id": 5,
+      "name_en": "Components Symbols and Wiring Diagrams",
+      "name_zh": "元件符號與配線圖",
+      "knowledge_ids": [
+        "CH05-001",
+        "CH05-002",
+        "CH05-003",
+        "CH05-004",
+        "CH05-005",
+        "CH05-006",
+        "CH05-007",
+        "CH05-008",
+        "CH05-009",
+        "CH05-010",
+        "CH05-011",
+        "CH05-012",
+        "CH05-013",
+        "CH05-014",
+        "CH05-015",
+        "CH05-016",
+        "CH05-017",
+        "CH05-018",
+        "CH05-019"
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "USER-K-001",
+      "chapter": 1,
+      "topic_key": "shock factors",
+      "term_en": "Electrical shock severity",
+      "term_zh": "電擊嚴重程度",
+      "definition_en": "Current magnitude, current path through the body, and exposure duration all influence injury severity.",
+      "explanation_zh": "電流大小、通過身體路徑及接觸時間都會影響傷害程度。",
+      "exam_note_en": "Never infer safety from voltage or current alone.",
+      "source": {
+        "type": "user_supplied_course_summary",
+        "chapter": 1,
+        "original_slide_verified": false
+      },
+      "tags": [
+        "shock factors"
+      ],
+      "related_question_ids": [
+        "USER-Q-001"
+      ],
+      "verification_status": "principle_reviewed_original_source_pending",
+      "hvac_application": "Assess shock hazards during condenser service, not just nominal supply voltage. / 冷凝機維修要評估電擊危害，不能只看標稱電壓。",
+      "related_formulas": [],
+      "common_misconceptions": [
+        "A voltage label alone does not predict injury. / 只看電壓標籤不能預測傷害。"
+      ],
+      "content_class": "safety_principle",
+      "source_reference": {
+        "file": "content/knowledge.seed.json",
+        "record": "CH01-001",
+        "original_verified": false,
+        "note": "User supplied summary; revised educational model, not an original exam question."
+      },
+      "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "USER-Q-001",
+      "knowledge_ids": [
+        "USER-K-001"
+      ],
+      "chapter": 1,
+      "topic": "shock factors",
+      "difficulty": "intermediate",
+      "type": "understanding",
+      "question_en": "Why is a single current value insufficient to predict shock injury?",
+      "question_zh": "為何不能只靠單一電流值預測電擊傷害？",
+      "choices": [
+        {
+          "id": "A",
+          "text_en": "Only supply frequency matters",
+          "text_zh": "只與電源頻率有關"
+        },
+        {
+          "id": "B",
+          "text_en": "Every exposure below 15 mA is safe",
+          "text_zh": "低於 15 mA 一律安全"
+        },
+        {
+          "id": "C",
+          "text_en": "Path and duration also affect injury",
+          "text_zh": "路徑及時間也影響傷害"
+        },
+        {
+          "id": "D",
+          "text_en": "Body resistance is always fixed",
+          "text_zh": "人體電阻永遠固定"
+        }
+      ],
+      "correct_choice": "C",
+      "explanation_en": "Path and duration also affect injury. Current magnitude, current path through the body, and exposure duration all influence injury severity.",
+      "explanation_zh": "路徑及時間也影響傷害。電流大小、通過身體路徑及接觸時間都會影響傷害程度。",
+      "choice_explanations": {
+        "C": {
+          "en": "Current magnitude, current path through the body, and exposure duration all influence injury severity.",
+          "zh": "電流大小、通過身體路徑及接觸時間都會影響傷害程度。"
+        },
+        "A": {
+          "en": "“Only supply frequency matters” does not satisfy the stated conditions. Current magnitude, current path through the body, and exposure duration all influence injury severity. Under the stated conditions the supported conclusion is: Path and duration also affect injury.",
+          "zh": "「只與電源頻率有關」不符合題目條件。電流大小、通過身體路徑及接觸時間都會影響傷害程度。 題目條件下支持的結論是：路徑及時間也影響傷害。"
+        },
+        "D": {
+          "en": "“Body resistance is always fixed” does not satisfy the stated conditions. Current magnitude, current path through the body, and exposure duration all influence injury severity. Under the stated conditions the supported conclusion is: Path and duration also affect injury.",
+          "zh": "「人體電阻永遠固定」不符合題目條件。電流大小、通過身體路徑及接觸時間都會影響傷害程度。 題目條件下支持的結論是：路徑及時間也影響傷害。"
+        },
+        "B": {
+          "en": "“Every exposure below 15 mA is safe” does not satisfy the stated conditions. Current magnitude, current path through the body, and exposure duration all influence injury severity. Under the stated conditions the supported conclusion is: Path and duration also affect injury.",
+          "zh": "「低於 15 mA 一律安全」不符合題目條件。電流大小、通過身體路徑及接觸時間都會影響傷害程度。 題目條件下支持的結論是：路徑及時間也影響傷害。"
+        }
+      },
+      "source_reference": {
+        "file": "請填實際來源",
+        "record": "USER-K-001",
+        "original_verified": false,
+        "note": "僅為欄位範例，請以實際題目替換並核對。"
+      },
+      "verification_status": "draft",
+      "eligible": false,
+      "original_teacher_question": false,
+      "publishedOnce": false
+    }
+  ],
+  "examProfiles": [
+    {
+      "id": "EXAM-001",
+      "name": "自訂考試",
+      "description": "先核對並啟用題目，再啟用考試。",
+      "count": 1,
+      "minutes": null,
+      "chapters": [
+        1
+      ],
+      "types": [],
+      "questionIds": [],
+      "enabled": false
+    }
+  ],
+  "resources": [
+    {
+      "id": "NOTE-001",
+      "title": "考試範圍說明範例",
+      "chapter": null,
+      "kind": "exam",
+      "text": "請替換成實際考試範圍與複習筆記。",
+      "source": "待填實際來源",
+      "verified": false
+    }
+  ]
+}

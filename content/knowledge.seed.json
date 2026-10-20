@@ -1,0 +1,742 @@
+[
+  {
+    "id": "CH01-001",
+    "chapter": 1,
+    "topic_key": "shock factors",
+    "term_en": "Electrical shock severity",
+    "term_zh": "電擊嚴重程度",
+    "definition_en": "Current magnitude, current path through the body, and exposure duration all influence injury severity.",
+    "explanation_zh": "電流大小、通過身體路徑及接觸時間都會影響傷害程度。",
+    "exam_note_en": "Never infer safety from voltage or current alone."
+  },
+  {
+    "id": "CH01-002",
+    "chapter": 1,
+    "topic_key": "shock paths",
+    "term_en": "Electrical shock paths",
+    "term_zh": "觸電路徑",
+    "definition_en": "Contact between live and neutral, live and ground, or two live conductors may complete a hazardous circuit through a person.",
+    "explanation_zh": "人體接觸火線與中性線、火線與接地，或兩條火線，都可能形成危險電流路徑。",
+    "exam_note_en": "A person can become part of an electrical circuit."
+  },
+  {
+    "id": "CH01-003",
+    "chapter": 1,
+    "topic_key": "arc flash",
+    "term_en": "Arc flash",
+    "term_zh": "電弧閃絡",
+    "definition_en": "An electric arc can travel through air, release intense energy and cause severe burns; low-voltage systems can also present arc-flash hazards.",
+    "explanation_zh": "電流經空氣形成電弧，可能釋放巨大能量造成燒傷；低壓系統也可能發生。",
+    "exam_note_en": "Do not limit arc-flash risk to high voltage."
+  },
+  {
+    "id": "CH01-004",
+    "chapter": 1,
+    "topic_key": "rescue",
+    "term_en": "Electric shock rescue",
+    "term_zh": "觸電救援",
+    "definition_en": "Do not touch an energized casualty. Isolate power when safe, summon emergency help, and provide first aid or CPR only when safe and trained.",
+    "explanation_zh": "不可直接接觸仍可能帶電的傷者；安全斷電、呼叫救援，並在安全且受訓情況下急救。",
+    "exam_note_en": "Do not approach exposed live conductors."
+  },
+  {
+    "id": "CH01-005",
+    "chapter": 1,
+    "topic_key": "NEC",
+    "term_en": "National Electrical Code",
+    "term_zh": "美國國家電氣規範",
+    "definition_en": "The NEC (NFPA 70) is a US electrical installation code published by NFPA; Canadian and Ontario rules differ.",
+    "explanation_zh": "NEC（NFPA 70）由 NFPA 發布，適用美國；加拿大與安省規範不同。",
+    "exam_note_en": "Course notes describe NEC as minimum requirements; verify edition and jurisdiction."
+  },
+  {
+    "id": "CH01-006",
+    "chapter": 1,
+    "topic_key": "ground wire",
+    "term_en": "Equipment grounding conductor",
+    "term_zh": "設備接地導體",
+    "definition_en": "Equipment grounding conductors provide a fault-current path and ordinarily do not carry normal load current.",
+    "explanation_zh": "設備接地導體提供故障電流路徑，正常狀況不承載負載電流。",
+    "exam_note_en": "Green or bare copper is common; do not confuse neutral with ground."
+  },
+  {
+    "id": "CH01-007",
+    "chapter": 1,
+    "topic_key": "ground pin",
+    "term_en": "Grounding plug pin",
+    "term_zh": "插頭接地腳",
+    "definition_en": "Never remove a grounding pin to fit an ungrounded receptacle.",
+    "explanation_zh": "不可為了插入兩孔插座而剪除接地腳。",
+    "exam_note_en": "A plug adapter is not a substitute for a verified equipment grounding connection."
+  },
+  {
+    "id": "CH01-008",
+    "chapter": 1,
+    "topic_key": "GFCI",
+    "term_en": "Ground-fault circuit interrupter",
+    "term_zh": "漏電斷路保護器",
+    "definition_en": "A GFCI detects an imbalance between outgoing and returning current and disconnects the circuit.",
+    "explanation_zh": "GFCI 比較流出與返回電流是否失衡，偵測漏電時斷開。",
+    "exam_note_en": "It does not replace overcurrent protection."
+  },
+  {
+    "id": "CH01-009",
+    "chapter": 1,
+    "topic_key": "fuse",
+    "term_en": "Fuse",
+    "term_zh": "保險絲",
+    "definition_en": "A fuse opens when its fusible element melts under excessive current and must be replaced after operation.",
+    "explanation_zh": "電流過大使熔絲熔斷，動作後須更換。",
+    "exam_note_en": "Use the correct type and rating."
+  },
+  {
+    "id": "CH01-010",
+    "chapter": 1,
+    "topic_key": "breaker",
+    "term_en": "Circuit breaker",
+    "term_zh": "斷路器",
+    "definition_en": "A circuit breaker opens a circuit under specified fault or overcurrent conditions and may be reset after the cause is corrected.",
+    "explanation_zh": "斷路器在特定故障或過電流條件下跳脫，排除原因後可重置。",
+    "exam_note_en": "HACR, GFCI, and AFCI identify different functions or classifications."
+  },
+  {
+    "id": "CH01-011",
+    "chapter": 1,
+    "topic_key": "lockout",
+    "term_en": "Lockout and tagout",
+    "term_zh": "上鎖掛牌",
+    "definition_en": "Identify and isolate all hazardous energy, apply the applicable lockout/tagout procedure, and verify absence of voltage before work. For qualified personnel, the applicable verification procedure includes a suitable rated contact instrument whose operation is checked on a known live reference before and after the absence test; a non-contact detector alone is insufficient.",
+    "explanation_zh": "辨識並隔離全部危險能源、依適用程序上鎖掛牌，工作前驗證無電。合資格人員依適用驗證程序使用額定合適的接觸式儀器，並在無電測試前後以已知帶電參考確認儀器有效；單靠非接觸驗電筆不夠。此為程序原理，不是未受訓者帶電操作指南。",
+    "exam_note_en": "Informing occupants is not a replacement for lockout and verification."
+  },
+  {
+    "id": "CH01-012",
+    "chapter": 1,
+    "topic_key": "capacitor",
+    "term_en": "Capacitor discharge safety",
+    "term_zh": "電容放電安全",
+    "definition_en": "Capacitors can retain hazardous charge after power is removed; follow manufacturer-approved discharge and verification procedures.",
+    "explanation_zh": "斷電後電容仍可能殘留危險電荷，應遵循原廠放電及驗證程序。",
+    "exam_note_en": "Course mentions 20 kΩ 4 W; not a universal procedure."
+  },
+  {
+    "id": "CH01-013",
+    "chapter": 1,
+    "topic_key": "PPE",
+    "term_en": "Electrical work precautions",
+    "term_zh": "電工作業防護",
+    "definition_en": "Inspect leads and tools, avoid conductive jewelry and wet contact, use appropriate PPE and rated equipment, and avoid metal ladders near live electricity.",
+    "explanation_zh": "檢查表筆工具、避免導電首飾與潮濕接觸、使用合適防護及額定設備，避免帶電處附近使用金屬梯。",
+    "exam_note_en": "Verify de-energization using an appropriately rated contact tester."
+  },
+  {
+    "id": "CH02-001",
+    "chapter": 2,
+    "topic_key": "atom",
+    "term_en": "Atomic charges",
+    "term_zh": "原子電荷",
+    "definition_en": "Protons are positive, neutrons neutral, and electrons negative; losing electrons creates a positive ion.",
+    "explanation_zh": "質子帶正電、中子不帶電、電子帶負電；失去電子會形成正離子。",
+    "exam_note_en": "Like charges repel and opposite charges attract."
+  },
+  {
+    "id": "CH02-002",
+    "chapter": 2,
+    "topic_key": "conductor",
+    "term_en": "Conductors and insulators",
+    "term_zh": "導體與絕緣體",
+    "definition_en": "Copper, aluminum and silver conduct electricity; insulating materials such as ceramics strongly resist current flow.",
+    "explanation_zh": "銅、鋁、銀為常見導體；陶瓷等絕緣材料阻礙電流。",
+    "exam_note_en": "Electrical conductivity depends on material and conditions."
+  },
+  {
+    "id": "CH02-003",
+    "chapter": 2,
+    "topic_key": "sources",
+    "term_en": "Sources of electrical energy",
+    "term_zh": "電能來源",
+    "definition_en": "Friction can produce static charge; chemical reactions supply batteries; electromagnetic induction enables generators.",
+    "explanation_zh": "摩擦可產生靜電、化學反應可供電池、電磁感應可供發電機。",
+    "exam_note_en": "A transformer transfers electrical energy through magnetic coupling; it does not generate net energy."
+  },
+  {
+    "id": "CH02-004",
+    "chapter": 2,
+    "topic_key": "voltage",
+    "term_en": "Voltage and potential difference",
+    "term_zh": "電壓與電位差",
+    "definition_en": "Voltage is electrical potential difference measured in volts (V).",
+    "explanation_zh": "電壓是兩點的電位差，單位伏特 V。",
+    "exam_note_en": "Voltage is measured between two points."
+  },
+  {
+    "id": "CH02-005",
+    "chapter": 2,
+    "topic_key": "current",
+    "term_en": "Electric current",
+    "term_zh": "電流",
+    "definition_en": "Electric current is the rate of charge flow, measured in amperes (A).",
+    "explanation_zh": "電流是電荷流動速率，單位安培 A。",
+    "exam_note_en": "Conventional current direction differs from electron flow direction."
+  },
+  {
+    "id": "CH02-006",
+    "chapter": 2,
+    "topic_key": "ACDC",
+    "term_en": "AC versus DC",
+    "term_zh": "交流與直流",
+    "definition_en": "DC maintains one direction of current; AC periodically reverses direction.",
+    "explanation_zh": "直流電方向固定，交流電方向週期性改變。",
+    "exam_note_en": "Building power and many HVAC motors use AC; electronics may use DC."
+  },
+  {
+    "id": "CH02-007",
+    "chapter": 2,
+    "topic_key": "resistance",
+    "term_en": "Electrical resistance",
+    "term_zh": "電阻",
+    "definition_en": "Resistance opposes current flow and is measured in ohms (Ω).",
+    "explanation_zh": "電阻阻礙電流，單位歐姆 Ω。",
+    "exam_note_en": "Ohm's law applies directly to ohmic loads under suitable conditions."
+  },
+  {
+    "id": "CH02-008",
+    "chapter": 2,
+    "topic_key": "ohm",
+    "term_en": "Ohm's law",
+    "term_zh": "歐姆定律",
+    "definition_en": "For a resistive circuit, I = V/R, V = IR and R = V/I.",
+    "explanation_zh": "電阻性電路中 I=V/R、V=IR、R=V/I。",
+    "exam_note_en": "240 V across 20 Ω gives 12 A."
+  },
+  {
+    "id": "CH02-009",
+    "chapter": 2,
+    "topic_key": "power",
+    "term_en": "Electrical power",
+    "term_zh": "電功率",
+    "definition_en": "DC or purely resistive power P = VI = I²R = V²/R.",
+    "explanation_zh": "直流或純電阻負載 P=VI=I²R=V²/R。",
+    "exam_note_en": "20 A at 240 V resistive load gives 4800 W."
+  },
+  {
+    "id": "CH02-010",
+    "chapter": 2,
+    "topic_key": "pf",
+    "term_en": "Power factor",
+    "term_zh": "功率因數",
+    "definition_en": "For single-phase AC, real input power P = Vrms × Irms × true PF. PF is real power divided by apparent power; for sinusoidal waveforms it equals the cosine of the phase angle.",
+    "explanation_zh": "單相交流實功率 P=Vrms×Irms×真實功率因數；PF=實功率/視在功率。只有正弦波條件才能用相位角餘弦表示。",
+    "exam_note_en": "Do not treat VI as real watts for all AC loads."
+  },
+  {
+    "id": "CH02-011",
+    "chapter": 2,
+    "topic_key": "inductive",
+    "term_en": "Resistive and inductive loads",
+    "term_zh": "電阻性與電感性負載",
+    "definition_en": "Resistive loads have near-unity PF; inductive loads such as motor windings often draw lagging current.",
+    "explanation_zh": "電阻性負載功率因數通常接近 1；馬達等電感性負載電流常落後電壓。",
+    "exam_note_en": "Capacitors can improve lagging PF when appropriately engineered."
+  },
+  {
+    "id": "CH02-012",
+    "chapter": 2,
+    "topic_key": "energy",
+    "term_en": "Electrical energy",
+    "term_zh": "電能",
+    "definition_en": "Energy in watt-hours equals power in watts multiplied by time in hours.",
+    "explanation_zh": "瓦時 Wh = 瓦數 W × 小時 h。",
+    "exam_note_en": "5000 W for 2 h = 10000 Wh = 10 kWh."
+  },
+  {
+    "id": "CH02-013",
+    "chapter": 2,
+    "topic_key": "conversion",
+    "term_en": "Power and heat conversions",
+    "term_zh": "功率與熱量換算",
+    "definition_en": "1 mechanical horsepower ≈ 746 W; 1 W ≈ 3.412 Btu/h.",
+    "explanation_zh": "1 hp 約 746 W；1 W 約 3.412 Btu/h。",
+    "exam_note_en": "5 kW resistance heat ≈ 17060 Btu/h using 3.412, or 17050 with course rounding 3.41."
+  },
+  {
+    "id": "CH02-014",
+    "chapter": 2,
+    "topic_key": "SEER",
+    "term_en": "Seasonal Energy Efficiency Ratio",
+    "term_zh": "季節能源效率比",
+    "definition_en": "SEER compares seasonal cooling output in Btu to electrical energy input in Wh; current US ratings may use SEER2.",
+    "explanation_zh": "SEER 為季節冷量 Btu 與耗電 Wh 之比；美國現行標示亦有 SEER2。",
+    "exam_note_en": "Do not confuse SEER with instantaneous EER."
+  },
+  {
+    "id": "CH02-015",
+    "chapter": 2,
+    "topic_key": "units",
+    "term_en": "Metric prefixes",
+    "term_zh": "電學單位前綴",
+    "definition_en": "k means 1000 and M means 1000000.",
+    "explanation_zh": "k 表千，M 表百萬。",
+    "exam_note_en": "5 MΩ = 5000000 Ω."
+  },
+  {
+    "id": "CH03-001",
+    "chapter": 3,
+    "topic_key": "elements",
+    "term_en": "Basic circuit elements",
+    "term_zh": "基本電路要素",
+    "definition_en": "A circuit needs a source, conductive closed path, and load; a control switch is optional.",
+    "explanation_zh": "電路需要電源、完整導電路徑及負載；開關可選。",
+    "exam_note_en": "A source without a complete path cannot sustain load current."
+  },
+  {
+    "id": "CH03-002",
+    "chapter": 3,
+    "topic_key": "openclosed",
+    "term_en": "Open and closed circuits",
+    "term_zh": "開路與閉路",
+    "definition_en": "A closed circuit provides a continuous path; an open circuit interrupts it.",
+    "explanation_zh": "閉路有完整通路；開路使通路中斷。",
+    "exam_note_en": "An intentionally open switch is not necessarily a failed component."
+  },
+  {
+    "id": "CH03-003",
+    "chapter": 3,
+    "topic_key": "series",
+    "term_en": "Series circuit current",
+    "term_zh": "串聯電流",
+    "definition_en": "A series circuit has one current path; the same current flows through all series components.",
+    "explanation_zh": "串聯只有一條電流路徑，各元件電流相同。",
+    "exam_note_en": "Opening any series switch interrupts the path."
+  },
+  {
+    "id": "CH03-004",
+    "chapter": 3,
+    "topic_key": "seriesR",
+    "term_en": "Series resistance",
+    "term_zh": "串聯總電阻",
+    "definition_en": "Equivalent series resistance is the sum of all series resistances.",
+    "explanation_zh": "串聯等效電阻為各電阻之和。",
+    "exam_note_en": "10 Ω + 12 Ω + 15 Ω = 37 Ω."
+  },
+  {
+    "id": "CH03-005",
+    "chapter": 3,
+    "topic_key": "seriesV",
+    "term_en": "Series voltage division",
+    "term_zh": "串聯分壓",
+    "definition_en": "The total voltage equals the sum of voltage drops; for resistors, drops are proportional to resistance.",
+    "explanation_zh": "總電壓等於各段壓降之和；電阻越大分得電壓越大。",
+    "exam_note_en": "Equal resistors share voltage equally."
+  },
+  {
+    "id": "CH03-006",
+    "chapter": 3,
+    "topic_key": "parallelV",
+    "term_en": "Parallel voltage",
+    "term_zh": "並聯電壓",
+    "definition_en": "Each parallel branch has the same voltage across the common nodes.",
+    "explanation_zh": "並聯各支路兩端電壓相同。",
+    "exam_note_en": "Each 115 V rated lamp across a 115 V source receives 115 V."
+  },
+  {
+    "id": "CH03-007",
+    "chapter": 3,
+    "topic_key": "parallelI",
+    "term_en": "Parallel current",
+    "term_zh": "並聯電流",
+    "definition_en": "Total current is the sum of branch currents.",
+    "explanation_zh": "並聯總電流等於各支路電流相加。",
+    "exam_note_en": "Adding a parallel load increases source current if voltage is maintained."
+  },
+  {
+    "id": "CH03-008",
+    "chapter": 3,
+    "topic_key": "parallelR",
+    "term_en": "Parallel resistance",
+    "term_zh": "並聯總電阻",
+    "definition_en": "For resistors, 1/Rt = Σ(1/Ri); for two resistors Rt = R1R2/(R1+R2).",
+    "explanation_zh": "並聯電阻倒數相加；兩個電阻可用乘積除以總和。",
+    "exam_note_en": "10 Ω and 15 Ω in parallel = 6 Ω."
+  },
+  {
+    "id": "CH03-009",
+    "chapter": 3,
+    "topic_key": "mixed",
+    "term_en": "Series-parallel circuits",
+    "term_zh": "串並聯混合",
+    "definition_en": "Real HVAC wiring often uses series safety/control contacts and parallel loads.",
+    "explanation_zh": "實際 HVAC 常用串聯安全接點及並聯負載。",
+    "exam_note_en": "Analyze each branch before reducing the network."
+  },
+  {
+    "id": "CH03-010",
+    "chapter": 3,
+    "topic_key": "controls",
+    "term_en": "Series safety switches",
+    "term_zh": "串聯安全開關",
+    "definition_en": "Thermostat and protective contacts may be in series so opening any required contact disables the controlled coil.",
+    "explanation_zh": "恆溫器與保護接點可串聯，任一必要接點斷開便停止控制線圈。",
+    "exam_note_en": "Actual control logic depends on the wiring diagram."
+  },
+  {
+    "id": "CH03-011",
+    "chapter": 3,
+    "topic_key": "loads",
+    "term_en": "Parallel motor loads",
+    "term_zh": "並聯馬達負載",
+    "definition_en": "Compressor and fan motors are commonly connected as parallel loads across the intended supply voltage.",
+    "explanation_zh": "壓縮機與風扇馬達通常並聯取得額定供電電壓。",
+    "exam_note_en": "Control contacts can still be in series with individual branches."
+  },
+  {
+    "id": "CH03-012",
+    "chapter": 3,
+    "topic_key": "lamps",
+    "term_en": "Lamp brightness in circuits",
+    "term_zh": "燈泡串並聯亮度",
+    "definition_en": "Identical rated lamps in series across their rated supply generally glow dimmer; in parallel they operate at rated voltage.",
+    "explanation_zh": "相同燈泡串聯在原額定電源下通常較暗，並聯則各得額定電壓。",
+    "exam_note_en": "Brightness depends on lamp technology and actual electrical characteristics."
+  },
+  {
+    "id": "CH03-013",
+    "chapter": 3,
+    "topic_key": "capacitorbranch",
+    "term_en": "Motor run capacitor connection",
+    "term_zh": "馬達運轉電容接線",
+    "definition_en": "A run capacitor is commonly in series with an auxiliary winding branch, not with the entire compressor supply.",
+    "explanation_zh": "運轉電容通常與輔助繞組支路串聯，而非整台壓縮機供電串聯。",
+    "exam_note_en": "Always inspect the actual motor circuit."
+  },
+  {
+    "id": "CH04-001",
+    "chapter": 4,
+    "topic_key": "voltmeter",
+    "term_en": "Voltmeter connection",
+    "term_zh": "電壓表接法",
+    "definition_en": "Connect a properly rated voltmeter in parallel across two measurement points.",
+    "explanation_zh": "合適額定電壓表並聯在兩測點之間。",
+    "exam_note_en": "Never insert a voltmeter as a series load."
+  },
+  {
+    "id": "CH04-002",
+    "chapter": 4,
+    "topic_key": "ammeter",
+    "term_en": "Ammeter connection",
+    "term_zh": "電流表接法",
+    "definition_en": "A conventional inline ammeter is inserted in series and must be rated and correctly fused.",
+    "explanation_zh": "一般串入式電流表須串聯且符合額定及保險絲要求。",
+    "exam_note_en": "A clamp meter avoids opening the conductor."
+  },
+  {
+    "id": "CH04-003",
+    "chapter": 4,
+    "topic_key": "ohmmeter",
+    "term_en": "Ohmmeter safety",
+    "term_zh": "歐姆表安全",
+    "definition_en": "A resistance meter supplies its own test signal. Isolate all energy sources, verify absence of voltage using an appropriate procedure, discharge stored energy according to the manufacturer, and isolate the component as needed before resistance measurement.",
+    "explanation_zh": "電阻表自行供應測試訊號。量測前須隔離所有能源、依合適程序驗證無電、按原廠方法處理儲能，並視需要隔離元件，避免並聯通路影響結果。",
+    "exam_note_en": "Never use resistance mode on an energized circuit."
+  },
+  {
+    "id": "CH04-004",
+    "chapter": 4,
+    "topic_key": "clamp",
+    "term_en": "Clamp ammeter",
+    "term_zh": "鉤表",
+    "definition_en": "A clamp meter senses the magnetic field around a conductor to measure current.",
+    "explanation_zh": "鉤表感測導體周圍磁場來測電流。",
+    "exam_note_en": "Clamp a single conductor for ordinary load current measurement."
+  },
+  {
+    "id": "CH04-005",
+    "chapter": 4,
+    "topic_key": "cancel",
+    "term_en": "Clamp current cancellation",
+    "term_zh": "鉤表電流抵消",
+    "definition_en": "Opposite currents through the clamp aperture tend to cancel; same-direction currents add algebraically.",
+    "explanation_zh": "反方向電流磁場相消，同方向電流代數相加。",
+    "exam_note_en": "Clamping live and neutral together can read near zero under normal balanced conditions."
+  },
+  {
+    "id": "CH04-006",
+    "chapter": 4,
+    "topic_key": "turns",
+    "term_en": "Multiple-turn clamp measurement",
+    "term_zh": "鉤表多圈測量",
+    "definition_en": "If one conductor passes through the clamp N times, divide the indicated current by N.",
+    "explanation_zh": "同一導線穿過鉤口 N 圈，讀數除以 N。",
+    "exam_note_en": "4 A indicated with 3 turns ≈ 1.33 A actual."
+  },
+  {
+    "id": "CH04-007",
+    "chapter": 4,
+    "topic_key": "analog",
+    "term_en": "Analog meter scale",
+    "term_zh": "指針電表刻度",
+    "definition_en": "Analog meters require reading the correct scale and multiplier.",
+    "explanation_zh": "指針表須讀正確刻度及倍率。",
+    "exam_note_en": "2.5 on R×1000 = 2500 Ω."
+  },
+  {
+    "id": "CH04-008",
+    "chapter": 4,
+    "topic_key": "digital",
+    "term_en": "Digital meter units",
+    "term_zh": "數位電表單位",
+    "definition_en": "A digital meter displays a numerical reading; pay attention to unit prefixes and mode.",
+    "explanation_zh": "數位表顯示數字，須注意單位前綴與量測模式。",
+    "exam_note_en": "12.345 kΩ = 12345 Ω."
+  },
+  {
+    "id": "CH04-009",
+    "chapter": 4,
+    "topic_key": "noncontact",
+    "term_en": "Non-contact voltage detector",
+    "term_zh": "非接觸驗電筆",
+    "definition_en": "A non-contact detector can indicate the presence of an electric field but cannot alone prove absence of hazardous voltage.",
+    "explanation_zh": "非接觸驗電筆可提示電場存在，但不能單獨證明無危險電壓。",
+    "exam_note_en": "Use appropriate rated contact testing and live-dead-live verification procedures."
+  },
+  {
+    "id": "CH04-010",
+    "chapter": 4,
+    "topic_key": "continuity",
+    "term_en": "Continuity and resistance",
+    "term_zh": "導通與電阻",
+    "definition_en": "Continuity means a conductive path exists; resistance and buzzer thresholds vary by meter.",
+    "explanation_zh": "導通表示有導電路徑，阻值及蜂鳴門檻依電表不同。",
+    "exam_note_en": "Near zero Ω is normal for a closed switch and is not automatically a fault."
+  },
+  {
+    "id": "CH04-011",
+    "chapter": 4,
+    "topic_key": "openreading",
+    "term_en": "Open-circuit meter reading",
+    "term_zh": "開路電表讀值",
+    "definition_en": "An isolated open path generally shows OL or very high resistance.",
+    "explanation_zh": "已隔離的開路通常顯示 OL 或極高電阻。",
+    "exam_note_en": "Parallel paths can distort in-circuit readings."
+  },
+  {
+    "id": "CH04-012",
+    "chapter": 4,
+    "topic_key": "calibration",
+    "term_en": "Meter calibration",
+    "term_zh": "電表校驗",
+    "definition_en": "Calibration compares readings against known references and identifies unacceptable measurement error.",
+    "explanation_zh": "校驗以已知標準比較讀值，辨識不可接受的誤差。",
+    "exam_note_en": "Do not use an instrument that fails required checks."
+  },
+  {
+    "id": "CH04-013",
+    "chapter": 4,
+    "topic_key": "functionrange",
+    "term_en": "Meter function and range",
+    "term_zh": "電表功能與檔位",
+    "definition_en": "Function selects the measured quantity (V/A/Ω); range selects the measurement scale.",
+    "explanation_zh": "function 選 V/A/Ω，range 選量測範圍。",
+    "exam_note_en": "Confirm AC/DC setting and lead jack placement."
+  },
+  {
+    "id": "CH04-014",
+    "chapter": 4,
+    "topic_key": "tolerance",
+    "term_en": "Resistor tolerance code",
+    "term_zh": "電阻誤差色碼",
+    "definition_en": "A gold tolerance band typically indicates ±5% tolerance.",
+    "explanation_zh": "金色容差環通常代表 ±5%。",
+    "exam_note_en": "Tolerance describes allowed component variation."
+  },
+  {
+    "id": "CH05-001",
+    "chapter": 5,
+    "topic_key": "load",
+    "term_en": "Electrical loads",
+    "term_zh": "電氣負載",
+    "definition_en": "Motors, heater elements, lamps and energized coils are electrical loads; a battery is a source.",
+    "explanation_zh": "馬達、加熱器、燈及通電線圈是負載；電池是電源。",
+    "exam_note_en": "A contactor coil is a load."
+  },
+  {
+    "id": "CH05-002",
+    "chapter": 5,
+    "topic_key": "motor",
+    "term_en": "HVAC motors",
+    "term_zh": "HVAC 馬達",
+    "definition_en": "Motors convert electrical energy into mechanical work for compressors, fans and pumps.",
+    "explanation_zh": "馬達把電能轉成機械功，驅動壓縮機、風扇與泵。",
+    "exam_note_en": "Motors may draw high starting current."
+  },
+  {
+    "id": "CH05-003",
+    "chapter": 5,
+    "topic_key": "solenoid",
+    "term_en": "Solenoid and coil",
+    "term_zh": "電磁線圈",
+    "definition_en": "Current through a coil produces a magnetic field used to actuate valves or switching devices.",
+    "explanation_zh": "線圈通電產生磁場，驅動閥或開關裝置。",
+    "exam_note_en": "Distinguish the coil from its controlled contacts."
+  },
+  {
+    "id": "CH05-004",
+    "chapter": 5,
+    "topic_key": "relay",
+    "term_en": "Relay",
+    "term_zh": "繼電器",
+    "definition_en": "A relay uses an energized coil to change contact states, often in control circuits.",
+    "explanation_zh": "繼電器透過線圈改變接點狀態，常用於控制迴路。",
+    "exam_note_en": "Relay and contactor are not differentiated solely by physical size."
+  },
+  {
+    "id": "CH05-005",
+    "chapter": 5,
+    "topic_key": "contactor",
+    "term_en": "Contactor",
+    "term_zh": "接觸器",
+    "definition_en": "A contactor is a switching device designed for controlling power loads such as motors.",
+    "explanation_zh": "接觸器用來切換馬達等動力負載。",
+    "exam_note_en": "Check utilization category and ratings."
+  },
+  {
+    "id": "CH05-006",
+    "chapter": 5,
+    "topic_key": "NO",
+    "term_en": "Normally open contact",
+    "term_zh": "常開接點",
+    "definition_en": "An NO contact is open in its defined normal state and closes when actuated.",
+    "explanation_zh": "NO 接點在定義的正常狀態下斷開，動作時閉合。",
+    "exam_note_en": "Schematic normal state must be interpreted from drawing conventions."
+  },
+  {
+    "id": "CH05-007",
+    "chapter": 5,
+    "topic_key": "NC",
+    "term_en": "Normally closed contact",
+    "term_zh": "常閉接點",
+    "definition_en": "An NC contact is closed in its defined normal state and opens when actuated.",
+    "explanation_zh": "NC 接點在正常狀態閉合，動作時斷開。",
+    "exam_note_en": "Normal may refer to de-energized or unactuated state depending on device."
+  },
+  {
+    "id": "CH05-008",
+    "chapter": 5,
+    "topic_key": "starter",
+    "term_en": "Magnetic motor starter",
+    "term_zh": "電磁馬達啟動器",
+    "definition_en": "A magnetic starter combines a contactor with motor overload protection.",
+    "explanation_zh": "電磁啟動器結合接觸器與馬達過載保護。",
+    "exam_note_en": "Overload protection does not replace short-circuit protection."
+  },
+  {
+    "id": "CH05-009",
+    "chapter": 5,
+    "topic_key": "polethrow",
+    "term_en": "Poles and throws",
+    "term_zh": "極與投",
+    "definition_en": "Pole counts independently switched circuits; throw describes selectable contact positions or paths.",
+    "explanation_zh": "pole 表獨立切換迴路組數；throw 表切換位置或路徑。",
+    "exam_note_en": "SPST and DPST are common switch descriptions."
+  },
+  {
+    "id": "CH05-010",
+    "chapter": 5,
+    "topic_key": "disconnect",
+    "term_en": "Disconnect switch",
+    "term_zh": "隔離開關",
+    "definition_en": "A disconnect provides a means to isolate equipment from its electrical supply.",
+    "explanation_zh": "隔離開關用於將設備與供電分離。",
+    "exam_note_en": "Follow rated isolation and lockout procedures."
+  },
+  {
+    "id": "CH05-011",
+    "chapter": 5,
+    "topic_key": "thermostat",
+    "term_en": "Cooling and heating thermostat",
+    "term_zh": "冷暖恆溫器",
+    "definition_en": "A simple cooling call closes on temperature rise; a simple heating call opens on temperature rise in the course example.",
+    "explanation_zh": "簡化課堂例子：冷氣溫升閉合、暖氣溫升斷開。",
+    "exam_note_en": "Actual thermostat contacts and control logic vary by design."
+  },
+  {
+    "id": "CH05-012",
+    "chapter": 5,
+    "topic_key": "pressure",
+    "term_en": "Pressure switches",
+    "term_zh": "壓力開關",
+    "definition_en": "Pressure-operated contacts can open or close on rising pressure according to intended control or safety function.",
+    "explanation_zh": "壓力開關可依用途設計為壓升斷開或閉合。",
+    "exam_note_en": "High- and low-pressure protection behavior depends on the circuit."
+  },
+  {
+    "id": "CH05-013",
+    "chapter": 5,
+    "topic_key": "push",
+    "term_en": "Push-button switches",
+    "term_zh": "按鈕開關",
+    "definition_en": "Push buttons may have normally open or normally closed contacts for start/stop controls.",
+    "explanation_zh": "按鈕可使用 NO 或 NC 接點作啟停控制。",
+    "exam_note_en": "A STOP button is often NC in a conventional three-wire starter circuit."
+  },
+  {
+    "id": "CH05-014",
+    "chapter": 5,
+    "topic_key": "thermal",
+    "term_en": "Thermal overload relay",
+    "term_zh": "熱過載保護",
+    "definition_en": "Thermal overload devices respond to heating associated with excess motor current.",
+    "explanation_zh": "熱過載裝置依過電流引起的熱效應動作。",
+    "exam_note_en": "Bimetallic elements are a common implementation."
+  },
+  {
+    "id": "CH05-015",
+    "chapter": 5,
+    "topic_key": "magnetic",
+    "term_en": "Magnetic overload protection",
+    "term_zh": "磁性過載保護",
+    "definition_en": "Magnetic current-operated protection responds to current according to a specified trip characteristic. Its role as overload or short-circuit protection depends on the device design and rating.",
+    "explanation_zh": "磁性電流保護依指定跳脫特性動作；是否具過載或短路保護功能，須看裝置設計與額定，不能一概而論。",
+    "exam_note_en": "Do not confuse overload with short-circuit protection."
+  },
+  {
+    "id": "CH05-016",
+    "chapter": 5,
+    "topic_key": "transformer",
+    "term_en": "Control transformer",
+    "term_zh": "控制變壓器",
+    "definition_en": "A transformer changes AC voltage through magnetic coupling; many HVAC controls use approximately 24 VAC secondary voltage.",
+    "explanation_zh": "變壓器藉磁耦合改變交流電壓；HVAC 控制常使用約 24 VAC。",
+    "exam_note_en": "Example 240 VAC primary to 24 VAC secondary."
+  },
+  {
+    "id": "CH05-017",
+    "chapter": 5,
+    "topic_key": "schematic",
+    "term_en": "Schematic diagram",
+    "term_zh": "電氣原理圖",
+    "definition_en": "A schematic emphasizes electrical logic and relationships rather than physical placement.",
+    "explanation_zh": "原理圖重視電路邏輯與元件關係，而非實際位置。",
+    "exam_note_en": "Use legend and normal contact states."
+  },
+  {
+    "id": "CH05-018",
+    "chapter": 5,
+    "topic_key": "pictorial",
+    "term_en": "Pictorial diagram",
+    "term_zh": "實體配線圖",
+    "definition_en": "A pictorial diagram emphasizes recognizable components and their approximate physical connections.",
+    "explanation_zh": "實體圖著重元件外觀與連接位置。",
+    "exam_note_en": "Useful for locating components."
+  },
+  {
+    "id": "CH05-019",
+    "chapter": 5,
+    "topic_key": "installation",
+    "term_en": "Installation wiring diagram",
+    "term_zh": "安裝配線圖",
+    "definition_en": "An installation diagram provides field wiring and terminal information such as conductor identification and protective device requirements.",
+    "explanation_zh": "安裝圖提供端子、導線識別與保護裝置等施工資訊。",
+    "exam_note_en": "Always follow the equipment-specific approved diagram."
+  }
+]

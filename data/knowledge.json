@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "CH01-001",
+    "chapter": 1,
+    "topic_key": "shock factors",
+    "term_en": "Electrical shock severity",
+    "term_zh": "電擊嚴重程度",
+    "definition_en": "Current magnitude, current path through the body, and exposure duration all influence injury severity.",
+    "explanation_zh": "電流大小、通過身體路徑及接觸時間都會影響傷害程度。",
+    "exam_note_en": "Never infer safety from voltage or current alone.",
+    "hvac_application": "Assess shock hazards during condenser service, not just nominal supply voltage. / 冷凝機維修要評估電擊危害，不能只看標稱電壓。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A voltage label alone does not predict injury. / 只看電壓標籤不能預測傷害。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-001",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-5a27ea99e0bd",
+      "HV2-ec4e955d1c0b",
+      "HV2-6a7b7bfa10b5"
+    ]
+  },
+  {
+    "id": "CH01-002",
+    "chapter": 1,
+    "topic_key": "shock paths",
+    "term_en": "Electrical shock paths",
+    "term_zh": "觸電路徑",
+    "definition_en": "Contact between live and neutral, live and ground, or two live conductors may complete a hazardous circuit through a person.",
+    "explanation_zh": "人體接觸火線與中性線、火線與接地，或兩條火線，都可能形成危險電流路徑。",
+    "exam_note_en": "A person can become part of an electrical circuit.",
+    "hvac_application": "Identify potential differences between exposed HVAC terminals. / 辨識 HVAC 裸端子間電位差。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Earth contact is not required for every shock path. / 不是所有觸電路徑都必須接觸大地。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-002",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-51e699e74fb2",
+      "HV2-682a66963896",
+      "HV2-46a4389e33e1"
+    ]
+  },
+  {
+    "id": "CH01-003",
+    "chapter": 1,
+    "topic_key": "arc flash",
+    "term_en": "Arc flash",
+    "term_zh": "電弧閃絡",
+    "definition_en": "An electric arc can travel through air, release intense energy and cause severe burns; low-voltage systems can also present arc-flash hazards.",
+    "explanation_zh": "電流經空氣形成電弧，可能釋放巨大能量造成燒傷；低壓系統也可能發生。",
+    "exam_note_en": "Do not limit arc-flash risk to high voltage.",
+    "hvac_application": "Include arc energy when evaluating work on motor power panels. / 評估馬達動力盤作業時也須考量電弧能量。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Low voltage does not mean no arc-flash hazard. / 低壓不代表沒有電弧閃絡危害。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-003",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-51dfaa841ce0",
+      "HV2-03e7e8606a3c",
+      "HV2-712495cabd29"
+    ]
+  },
+  {
+    "id": "CH01-004",
+    "chapter": 1,
+    "topic_key": "rescue",
+    "term_en": "Electric shock rescue",
+    "term_zh": "觸電救援",
+    "definition_en": "Do not touch an energized casualty. Isolate power when safe, summon emergency help, and provide first aid or CPR only when safe and trained.",
+    "explanation_zh": "不可直接接觸仍可能帶電的傷者；安全斷電、呼叫救援，並在安全且受訓情況下急救。",
+    "exam_note_en": "Do not approach exposed live conductors.",
+    "hvac_application": "Recognize safe emergency response boundaries in a service area. / 辨識維修區緊急救援的安全界線。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Directly grabbing an energized casualty can injure the rescuer. / 直接拉仍帶電傷者可能傷及救援者。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-004",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-b085037684ec",
+      "HV2-bfc918995728",
+      "HV2-f5702f924b61"
+    ]
+  },
+  {
+    "id": "CH01-005",
+    "chapter": 1,
+    "topic_key": "NEC",
+    "term_en": "National Electrical Code",
+    "term_zh": "美國國家電氣規範",
+    "definition_en": "The NEC (NFPA 70) is a US electrical installation code published by NFPA; Canadian and Ontario rules differ.",
+    "explanation_zh": "NEC（NFPA 70）由 NFPA 發布，適用美國；加拿大與安省規範不同。",
+    "exam_note_en": "Course notes describe NEC as minimum requirements; verify edition and jurisdiction.",
+    "hvac_application": "Confirm the adopted local requirements before installing HVAC branch wiring. / 安裝 HVAC 分路配線前核對當地採用要求。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "NEC is not automatically the applicable Canadian installation code. / NEC 不自動成為加拿大適用安裝規範。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-005",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-3e9a72e0ed9c",
+      "HV2-cda4317e4c43",
+      "HV2-bdc7720ed915"
+    ]
+  },
+  {
+    "id": "CH01-006",
+    "chapter": 1,
+    "topic_key": "ground wire",
+    "term_en": "Equipment grounding conductor",
+    "term_zh": "設備接地導體",
+    "definition_en": "Equipment grounding conductors provide a fault-current path and ordinarily do not carry normal load current.",
+    "explanation_zh": "設備接地導體提供故障電流路徑，正常狀況不承載負載電流。",
+    "exam_note_en": "Green or bare copper is common; do not confuse neutral with ground.",
+    "hvac_application": "Understand how bonding a metal air-handler cabinet supports fault clearing. / 了解空調箱金屬機殼搭接如何協助清故障。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A protective conductor is not a general substitute for neutral. / 保護導體不是可任意替代的中性線。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-006",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-1a793d51e968",
+      "HV2-4d510af7d3c5",
+      "HV2-a6bb97a2a68b",
+      "HV2-c2d8ee544271"
+    ]
+  },
+  {
+    "id": "CH01-007",
+    "chapter": 1,
+    "topic_key": "ground pin",
+    "term_en": "Grounding plug pin",
+    "term_zh": "插頭接地腳",
+    "definition_en": "Never remove a grounding pin to fit an ungrounded receptacle.",
+    "explanation_zh": "不可為了插入兩孔插座而剪除接地腳。",
+    "exam_note_en": "A plug adapter is not a substitute for a verified equipment grounding connection.",
+    "hvac_application": "Preserve the intended grounding connection on service tools. / 保留維修工具預定的接地連接。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Removing the pin does not make a tool double insulated. / 剪接地腳不會使工具變雙重絕緣。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-007",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-4cb2782cc240",
+      "HV2-0c6a625c1b87",
+      "HV2-b7f1c51db20c"
+    ]
+  },
+  {
+    "id": "CH01-008",
+    "chapter": 1,
+    "topic_key": "GFCI",
+    "term_en": "Ground-fault circuit interrupter",
+    "term_zh": "漏電斷路保護器",
+    "definition_en": "A GFCI detects an imbalance between outgoing and returning current and disconnects the circuit.",
+    "explanation_zh": "GFCI 比較流出與返回電流是否失衡，偵測漏電時斷開。",
+    "exam_note_en": "It does not replace overcurrent protection.",
+    "hvac_application": "Interpret imbalance trips on portable service supplies. / 解讀可攜式維修供電的失衡跳脫。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "GFCI does not prevent all line-to-neutral shocks or balanced overloads. / GFCI 不防止全部火線中性線觸電或平衡過載。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-008",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-254e9a277161",
+      "HV2-283169285c11",
+      "HV2-61d5e5c0a579",
+      "HV2-595e034615f1"
+    ]
+  },
+  {
+    "id": "CH01-009",
+    "chapter": 1,
+    "topic_key": "fuse",
+    "term_en": "Fuse",
+    "term_zh": "保險絲",
+    "definition_en": "A fuse opens when its fusible element melts under excessive current and must be replaced after operation.",
+    "explanation_zh": "電流過大使熔絲熔斷，動作後須更換。",
+    "exam_note_en": "Use the correct type and rating.",
+    "hvac_application": "Check fuse type, current rating and interrupting capacity against equipment requirements. / 依設備要求核對保險絲種類、電流額定及分斷能力。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A physically fitting fuse is not necessarily a suitable replacement. / 裝得進去不代表替換件合適。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-009",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-58ab4b930651",
+      "HV2-48ba2fc1d259",
+      "HV2-420acce9a925"
+    ]
+  },
+  {
+    "id": "CH01-010",
+    "chapter": 1,
+    "topic_key": "breaker",
+    "term_en": "Circuit breaker",
+    "term_zh": "斷路器",
+    "definition_en": "A circuit breaker opens a circuit under specified fault or overcurrent conditions and may be reset after the cause is corrected.",
+    "explanation_zh": "斷路器在特定故障或過電流條件下跳脫，排除原因後可重置。",
+    "exam_note_en": "HACR, GFCI, and AFCI identify different functions or classifications.",
+    "hvac_application": "Treat repeated compressor breaker trips as a fault investigation signal. / 把壓縮機反覆跳斷路器視為調查故障訊號。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Repeated resets do not repair an overload or short. / 反覆重置不會修復過載或短路。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-010",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-ae168b40c66d",
+      "HV2-83721441c5c6",
+      "HV2-17eb3587ef47"
+    ]
+  },
+  {
+    "id": "CH01-011",
+    "chapter": 1,
+    "topic_key": "lockout",
+    "term_en": "Lockout and tagout",
+    "term_zh": "上鎖掛牌",
+    "definition_en": "Identify and isolate all hazardous energy, apply the applicable lockout/tagout procedure, and verify absence of voltage before work. For qualified personnel, the applicable verification procedure includes a suitable rated contact instrument whose operation is checked on a known live reference before and after the absence test; a non-contact detector alone is insufficient.",
+    "explanation_zh": "辨識並隔離全部危險能源、依適用程序上鎖掛牌，工作前驗證無電。合資格人員依適用驗證程序使用額定合適的接觸式儀器，並在無電測試前後以已知帶電參考確認儀器有效；單靠非接觸驗電筆不夠。此為程序原理，不是未受訓者帶電操作指南。",
+    "exam_note_en": "Informing occupants is not a replacement for lockout and verification.",
+    "hvac_application": "Identify all sources feeding indoor and outdoor HVAC sections before service. / 維修前辨識室內外 HVAC 部分的全部供電。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Thermostat off does not isolate all energy. / 關恆溫器不會隔離全部能源。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-011",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-3843427d248e",
+      "HV2-cebfcee94b7c",
+      "HV2-ac04915fc12e",
+      "HV2-aba852b5f5fa"
+    ]
+  },
+  {
+    "id": "CH01-012",
+    "chapter": 1,
+    "topic_key": "capacitor",
+    "term_en": "Capacitor discharge safety",
+    "term_zh": "電容放電安全",
+    "definition_en": "Capacitors can retain hazardous charge after power is removed; follow manufacturer-approved discharge and verification procedures.",
+    "explanation_zh": "斷電後電容仍可能殘留危險電荷，應遵循原廠放電及驗證程序。",
+    "exam_note_en": "Course mentions 20 kΩ 4 W; not a universal procedure.",
+    "hvac_application": "Account for run-capacitor stored energy after disconnecting a condenser. / 冷凝機斷電後仍須考慮運轉電容儲能。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A fixed discharge resistor and waiting time are not universal. / 固定放電電阻及等待時間不能通用。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-012",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-e946219db0c8",
+      "HV2-03b368e81a51",
+      "HV2-a1617bffa29b",
+      "HV2-d53dc7a6019d"
+    ]
+  },
+  {
+    "id": "CH01-013",
+    "chapter": 1,
+    "topic_key": "PPE",
+    "term_en": "Electrical work precautions",
+    "term_zh": "電工作業防護",
+    "definition_en": "Inspect leads and tools, avoid conductive jewelry and wet contact, use appropriate PPE and rated equipment, and avoid metal ladders near live electricity.",
+    "explanation_zh": "檢查表筆工具、避免導電首飾與潮濕接觸、使用合適防護及額定設備，避免帶電處附近使用金屬梯。",
+    "exam_note_en": "Verify de-energization using an appropriately rated contact tester.",
+    "hvac_application": "Reject damaged leads and match PPE and instruments to the task. / 停用損壞表筆並使 PPE 及儀器適合作業。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "PPE does not replace qualification or isolation. / PPE 不取代資格或隔離。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH01-013",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-1725f73efb26",
+      "HV2-0b2974e54904",
+      "HV2-40afd3abda6a"
+    ]
+  },
+  {
+    "id": "CH02-001",
+    "chapter": 2,
+    "topic_key": "atom",
+    "term_en": "Atomic charges",
+    "term_zh": "原子電荷",
+    "definition_en": "Protons are positive, neutrons neutral, and electrons negative; losing electrons creates a positive ion.",
+    "explanation_zh": "質子帶正電、中子不帶電、電子帶負電；失去電子會形成正離子。",
+    "exam_note_en": "Like charges repel and opposite charges attract.",
+    "hvac_application": "Use charge polarity to understand electrical potential in controls. / 用電荷極性理解控制電路電位。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Losing a negative electron makes an initially neutral atom positive. / 中性原子失去負電子會帶正電。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-001",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-77550fbc36e7",
+      "HV2-8b13a0669455",
+      "HV2-0fb0898fd975"
+    ]
+  },
+  {
+    "id": "CH02-002",
+    "chapter": 2,
+    "topic_key": "conductor",
+    "term_en": "Conductors and insulators",
+    "term_zh": "導體與絕緣體",
+    "definition_en": "Copper, aluminum and silver conduct electricity; insulating materials such as ceramics strongly resist current flow.",
+    "explanation_zh": "銅、鋁、銀為常見導體；陶瓷等絕緣材料阻礙電流。",
+    "exam_note_en": "Electrical conductivity depends on material and conditions.",
+    "hvac_application": "Distinguish copper conductors from ceramic insulating supports. / 區分銅導線與陶瓷絕緣支座。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Insulation can fail; no material choice alone proves a circuit safe. / 絕緣可能失效，僅材質不能證明電路安全。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-002",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-44f27330c9cb",
+      "HV2-2d937a847849",
+      "HV2-ce24fdb26c2a"
+    ]
+  },
+  {
+    "id": "CH02-003",
+    "chapter": 2,
+    "topic_key": "sources",
+    "term_en": "Sources of electrical energy",
+    "term_zh": "電能來源",
+    "definition_en": "Friction can produce static charge; chemical reactions supply batteries; electromagnetic induction enables generators.",
+    "explanation_zh": "摩擦可產生靜電、化學反應可供電池、電磁感應可供發電機。",
+    "exam_note_en": "A transformer transfers electrical energy through magnetic coupling; it does not generate net energy.",
+    "hvac_application": "Distinguish backup batteries from generator supplies. / 區分備用電池與發電機供電。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A generator converts energy rather than creating it from nothing. / 發電機轉換能量而非無中生有。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-003",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-7814f8220c01",
+      "HV2-b019bdcab54a",
+      "HV2-850e61d1fe4d"
+    ]
+  },
+  {
+    "id": "CH02-004",
+    "chapter": 2,
+    "topic_key": "voltage",
+    "term_en": "Voltage and potential difference",
+    "term_zh": "電壓與電位差",
+    "definition_en": "Voltage is electrical potential difference measured in volts (V).",
+    "explanation_zh": "電壓是兩點的電位差，單位伏特 V。",
+    "exam_note_en": "Voltage is measured between two points.",
+    "hvac_application": "Interpret the voltage across open thermostat contacts. / 解讀開路恆溫接點兩端電壓。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Voltage can exist when load current is zero. / 負載電流為零仍可有電壓。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-004",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-355cb17f13c0",
+      "HV2-8cded4ecead5",
+      "HV2-cb1b1d55cadb"
+    ]
+  },
+  {
+    "id": "CH02-005",
+    "chapter": 2,
+    "topic_key": "current",
+    "term_en": "Electric current",
+    "term_zh": "電流",
+    "definition_en": "Electric current is the rate of charge flow, measured in amperes (A).",
+    "explanation_zh": "電流是電荷流動速率，單位安培 A。",
+    "exam_note_en": "Conventional current direction differs from electron flow direction.",
+    "hvac_application": "Read coil and motor current specifications in amperes. / 用安培解讀線圈及馬達電流規格。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Current is not used up as it passes through series loads. / 電流不會經串聯負載就被用掉。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-005",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-3c05c6d55201",
+      "HV2-94d06a52c6f1",
+      "HV2-652b0c07a473"
+    ]
+  },
+  {
+    "id": "CH02-006",
+    "chapter": 2,
+    "topic_key": "ACDC",
+    "term_en": "AC versus DC",
+    "term_zh": "交流與直流",
+    "definition_en": "DC maintains one direction of current; AC periodically reverses direction.",
+    "explanation_zh": "直流電方向固定，交流電方向週期性改變。",
+    "exam_note_en": "Building power and many HVAC motors use AC; electronics may use DC.",
+    "hvac_application": "Identify AC transformer supplies and DC control electronics. / 辨識交流變壓器供電與直流控制電子電路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Varying DC need not reverse direction. / 大小變化的直流不必反向。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-006",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-0601c02618c1",
+      "HV2-a5deec7dd209",
+      "HV2-268bc9d9bb10"
+    ]
+  },
+  {
+    "id": "CH02-007",
+    "chapter": 2,
+    "topic_key": "resistance",
+    "term_en": "Electrical resistance",
+    "term_zh": "電阻",
+    "definition_en": "Resistance opposes current flow and is measured in ohms (Ω).",
+    "explanation_zh": "電阻阻礙電流，單位歐姆 Ω。",
+    "exam_note_en": "Ohm's law applies directly to ohmic loads under suitable conditions.",
+    "hvac_application": "Predict a fixed-voltage heater's current when resistance changes. / 預測固定電壓加熱器在電阻改變時的電流。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Higher resistance does not mean more current at fixed voltage. / 固定電壓下阻值較高不表示電流較大。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-007",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-07e6f7bb9d3a",
+      "HV2-5f9016b3d8a0",
+      "HV2-8949ff8b2cc4"
+    ]
+  },
+  {
+    "id": "CH02-008",
+    "chapter": 2,
+    "topic_key": "ohm",
+    "term_en": "Ohm's law",
+    "term_zh": "歐姆定律",
+    "definition_en": "For a resistive circuit, I = V/R, V = IR and R = V/I.",
+    "explanation_zh": "電阻性電路中 I=V/R、V=IR、R=V/I。",
+    "exam_note_en": "240 V across 20 Ω gives 12 A.",
+    "hvac_application": "Solve ideal resistive control-board training circuits. / 求解理想電阻控制板訓練電路。",
+    "related_formulas": [
+      "I = V/R",
+      "V = IR",
+      "R = V/I"
+    ],
+    "common_misconceptions": [
+      "Motor AC impedance is not always its DC winding resistance. / 馬達交流阻抗不一定等於直流繞組電阻。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-008",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-556ced57a0d0",
+      "HV2-dfb2acad34e6",
+      "HV2-1745da4ee432",
+      "HV2-e0cd197c34d8",
+      "HV2-e33e62b14714",
+      "HV2-aaf90383ddde",
+      "HV2-f70d8261c845",
+      "HV2-e5428c656a5b",
+      "HV2-57aa2daac657",
+      "HV2-24e91deeec1c",
+      "HV2-75dbd3329f7a",
+      "HV2-e9cdec9bab64",
+      "HV2-17fb524b860d"
+    ]
+  },
+  {
+    "id": "CH02-009",
+    "chapter": 2,
+    "topic_key": "power",
+    "term_en": "Electrical power",
+    "term_zh": "電功率",
+    "definition_en": "DC or purely resistive power P = VI = I²R = V²/R.",
+    "explanation_zh": "直流或純電阻負載 P=VI=I²R=V²/R。",
+    "exam_note_en": "20 A at 240 V resistive load gives 4800 W.",
+    "hvac_application": "Estimate resistive strip-heater electrical input. / 估算電阻式電熱條輸入。",
+    "related_formulas": [
+      "P = VI",
+      "P = I²R",
+      "P = V²/R"
+    ],
+    "common_misconceptions": [
+      "Half voltage gives quarter power only for a fixed resistor. / 電壓減半功率四分之一限固定電阻模型。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-009",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-e0eb70319af9",
+      "HV2-d8349f1e87e9",
+      "HV2-69fa256206bb",
+      "HV2-f164289d33cb",
+      "HV2-7b213d468e6f",
+      "HV2-39061f4c1c65",
+      "HV2-99e7f2eb6bbb",
+      "HV2-a9e595b2f284",
+      "HV2-f0a9febee8d3",
+      "HV2-7fcf20bbef0f",
+      "HV2-ba74642b1176",
+      "HV2-65b5d0ea0862",
+      "HV2-32e8c129de32"
+    ]
+  },
+  {
+    "id": "CH02-010",
+    "chapter": 2,
+    "topic_key": "pf",
+    "term_en": "Power factor",
+    "term_zh": "功率因數",
+    "definition_en": "For single-phase AC, real input power P = Vrms × Irms × true PF. PF is real power divided by apparent power; for sinusoidal waveforms it equals the cosine of the phase angle.",
+    "explanation_zh": "單相交流實功率 P=Vrms×Irms×真實功率因數；PF=實功率/視在功率。只有正弦波條件才能用相位角餘弦表示。",
+    "exam_note_en": "Do not treat VI as real watts for all AC loads.",
+    "hvac_application": "Distinguish compressor input W from apparent VA. / 區分壓縮機輸入 W 與視在 VA。",
+    "related_formulas": [
+      "P = Vrms × Irms × PF"
+    ],
+    "common_misconceptions": [
+      "V times I equals VA; multiplying by true PF gives single-phase real W. / V 乘 I 得 VA，乘真實 PF 才得單相實 W。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-010",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-59ad37b6ac43",
+      "HV2-409383eba008",
+      "HV2-79d89856e488",
+      "HV2-95ad264d97b3",
+      "HV2-8003d1f23f7f",
+      "HV2-650fd73c9625",
+      "HV2-104aa9a43012"
+    ]
+  },
+  {
+    "id": "CH02-011",
+    "chapter": 2,
+    "topic_key": "inductive",
+    "term_en": "Resistive and inductive loads",
+    "term_zh": "電阻性與電感性負載",
+    "definition_en": "Resistive loads have near-unity PF; inductive loads such as motor windings often draw lagging current.",
+    "explanation_zh": "電阻性負載功率因數通常接近 1；馬達等電感性負載電流常落後電壓。",
+    "exam_note_en": "Capacitors can improve lagging PF when appropriately engineered.",
+    "hvac_application": "Recognize lagging current in inductive fan-motor models. / 辨識電感性風扇馬達模型的落後電流。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A real motor is not a pure ideal inductor or pure resistor. / 真實馬達不是純理想電感或純電阻。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-011",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-079075fc718b",
+      "HV2-61941aef88ba",
+      "HV2-e7c79122e5ac"
+    ]
+  },
+  {
+    "id": "CH02-012",
+    "chapter": 2,
+    "topic_key": "energy",
+    "term_en": "Electrical energy",
+    "term_zh": "電能",
+    "definition_en": "Energy in watt-hours equals power in watts multiplied by time in hours.",
+    "explanation_zh": "瓦時 Wh = 瓦數 W × 小時 h。",
+    "exam_note_en": "5000 W for 2 h = 10000 Wh = 10 kWh.",
+    "hvac_application": "Estimate heater energy from operating power and runtime. / 由加熱功率及運轉時間估耗能。",
+    "related_formulas": [
+      "E(Wh) = P(W) × t(h)"
+    ],
+    "common_misconceptions": [
+      "kW and kWh measure different quantities. / kW 與 kWh 是不同物理量。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-012",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-c277d850bb19",
+      "HV2-8e8dc8b8fafb",
+      "HV2-546ca8f246ae",
+      "HV2-addecf8c4295",
+      "HV2-16eedb022774",
+      "HV2-49d6b49e66a8",
+      "HV2-98f96464de73"
+    ]
+  },
+  {
+    "id": "CH02-013",
+    "chapter": 2,
+    "topic_key": "conversion",
+    "term_en": "Power and heat conversions",
+    "term_zh": "功率與熱量換算",
+    "definition_en": "1 mechanical horsepower ≈ 746 W; 1 W ≈ 3.412 Btu/h.",
+    "explanation_zh": "1 hp 約 746 W；1 W 約 3.412 Btu/h。",
+    "exam_note_en": "5 kW resistance heat ≈ 17060 Btu/h using 3.412, or 17050 with course rounding 3.41.",
+    "hvac_application": "Convert motor shaft hp before applying efficiency to find input watts. / 先換算馬達軸 hp，再用效率求輸入瓦數。",
+    "related_formulas": [
+      "1 hp ≈ 746 W",
+      "1 W ≈ 3.412 Btu/h"
+    ],
+    "common_misconceptions": [
+      "746 W per mechanical hp describes mechanical power, not automatic electrical input. / 每機械 hp 的 746 W 不自動等於電輸入。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-013",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-322c9635381f",
+      "HV2-aa9884117c02",
+      "HV2-771f31bcad1c",
+      "HV2-3a8be6b02dc3",
+      "HV2-35dbf892646d",
+      "HV2-2ed9cb2769e6"
+    ]
+  },
+  {
+    "id": "CH02-014",
+    "chapter": 2,
+    "topic_key": "SEER",
+    "term_en": "Seasonal Energy Efficiency Ratio",
+    "term_zh": "季節能源效率比",
+    "definition_en": "SEER compares seasonal cooling output in Btu to electrical energy input in Wh; current US ratings may use SEER2.",
+    "explanation_zh": "SEER 為季節冷量 Btu 與耗電 Wh 之比；美國現行標示亦有 SEER2。",
+    "exam_note_en": "Do not confuse SEER with instantaneous EER.",
+    "hvac_application": "Compare seasonal cooling ratings under the same test method. / 比較相同測試方法的季節冷房評等。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "SEER is not an instantaneous current measurement. / SEER 不是瞬間電流量測。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-014",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-a37093713d32",
+      "HV2-480957da3263",
+      "HV2-eb342171ba12",
+      "HV2-af67584fe20b"
+    ]
+  },
+  {
+    "id": "CH02-015",
+    "chapter": 2,
+    "topic_key": "units",
+    "term_en": "Metric prefixes",
+    "term_zh": "電學單位前綴",
+    "definition_en": "k means 1000 and M means 1000000.",
+    "explanation_zh": "k 表千，M 表百萬。",
+    "exam_note_en": "5 MΩ = 5000000 Ω.",
+    "hvac_application": "Read kΩ, MΩ and mA accurately on component lists and meters. / 正確讀取零件表及電表的 kΩ、MΩ、mA。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Uppercase M and lowercase m are not interchangeable. / 大寫 M 與小寫 m 不可互換。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH02-015",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-44299eaabf7b",
+      "HV2-e003acad16d6",
+      "HV2-7667bed096c3"
+    ]
+  },
+  {
+    "id": "CH03-001",
+    "chapter": 3,
+    "topic_key": "elements",
+    "term_en": "Basic circuit elements",
+    "term_zh": "基本電路要素",
+    "definition_en": "A circuit needs a source, conductive closed path, and load; a control switch is optional.",
+    "explanation_zh": "電路需要電源、完整導電路徑及負載；開關可選。",
+    "exam_note_en": "A source without a complete path cannot sustain load current.",
+    "hvac_application": "Trace source, load and return in a 24 VAC control schematic. / 追蹤 24 VAC 控制圖中的電源、負載及回路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A switch is useful but not essential in the simplest circuit model. / 開關有用但非最簡電路必需。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-001",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-05d5f0259337",
+      "HV2-903c388a5f7f",
+      "HV2-43244acfcd16"
+    ]
+  },
+  {
+    "id": "CH03-002",
+    "chapter": 3,
+    "topic_key": "openclosed",
+    "term_en": "Open and closed circuits",
+    "term_zh": "開路與閉路",
+    "definition_en": "A closed circuit provides a continuous path; an open circuit interrupts it.",
+    "explanation_zh": "閉路有完整通路；開路使通路中斷。",
+    "exam_note_en": "An intentionally open switch is not necessarily a failed component.",
+    "hvac_application": "Distinguish an open coil feed from a shorted load. / 區分線圈供電開路與負載短路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "An open path can still have voltage across it. / 開路兩端仍可有電壓。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-002",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-ca397871e63d",
+      "HV2-ac363c37a26f",
+      "HV2-7a52969176dc"
+    ]
+  },
+  {
+    "id": "CH03-003",
+    "chapter": 3,
+    "topic_key": "series",
+    "term_en": "Series circuit current",
+    "term_zh": "串聯電流",
+    "definition_en": "A series circuit has one current path; the same current flows through all series components.",
+    "explanation_zh": "串聯只有一條電流路徑，各元件電流相同。",
+    "exam_note_en": "Opening any series switch interrupts the path.",
+    "hvac_application": "Follow the same current through series permissive contacts. / 追蹤流過串聯允許接點的相同電流。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Different series resistances do not imply different series currents. / 不同串聯阻值不表示串聯電流不同。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-003",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-b2b5bcb44f03",
+      "HV2-c4d2f4cd381e",
+      "HV2-bb60c87096d5",
+      "HV2-a5ceaf98b7be"
+    ]
+  },
+  {
+    "id": "CH03-004",
+    "chapter": 3,
+    "topic_key": "seriesR",
+    "term_en": "Series resistance",
+    "term_zh": "串聯總電阻",
+    "definition_en": "Equivalent series resistance is the sum of all series resistances.",
+    "explanation_zh": "串聯等效電阻為各電阻之和。",
+    "exam_note_en": "10 Ω + 12 Ω + 15 Ω = 37 Ω.",
+    "hvac_application": "Predict current reduction after adding series test resistance. / 預測增加串聯測試電阻後的電流降低。",
+    "related_formulas": [
+      "Rt = ΣRi"
+    ],
+    "common_misconceptions": [
+      "Series resistance adds; it does not combine like parallel resistance. / 串聯電阻相加，不用並聯合成方式。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-004",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-fcae690cb1d1",
+      "HV2-87c59e3e95a6",
+      "HV2-4643dcadf7b1",
+      "HV2-83f620304306",
+      "HV2-72be51d1fc9e",
+      "HV2-160d9094cc17"
+    ]
+  },
+  {
+    "id": "CH03-005",
+    "chapter": 3,
+    "topic_key": "seriesV",
+    "term_en": "Series voltage division",
+    "term_zh": "串聯分壓",
+    "definition_en": "The total voltage equals the sum of voltage drops; for resistors, drops are proportional to resistance.",
+    "explanation_zh": "總電壓等於各段壓降之和；電阻越大分得電壓越大。",
+    "exam_note_en": "Equal resistors share voltage equally.",
+    "hvac_application": "Explain reduced coil voltage due to a resistive contact. / 解釋高阻接點造成線圈電壓降低。",
+    "related_formulas": [
+      "Vs = ΣVi",
+      "Vi = Vs × Ri/Rt"
+    ],
+    "common_misconceptions": [
+      "A nearly closed mechanical contact can still develop significant voltage drop under load. / 機械上接近閉合的接點在負載下仍可有明顯壓降。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-005",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-1f8364ad6cb3",
+      "HV2-7d7e41fb9b8b",
+      "HV2-cf111a67d9d4",
+      "HV2-0a3f6edd1fd8",
+      "HV2-914ff2b8d8f6",
+      "HV2-7968a22853ba",
+      "HV2-e0fcf93a0013",
+      "HV2-ad40c3c288d4"
+    ]
+  },
+  {
+    "id": "CH03-006",
+    "chapter": 3,
+    "topic_key": "parallelV",
+    "term_en": "Parallel voltage",
+    "term_zh": "並聯電壓",
+    "definition_en": "Each parallel branch has the same voltage across the common nodes.",
+    "explanation_zh": "並聯各支路兩端電壓相同。",
+    "exam_note_en": "Each 115 V rated lamp across a 115 V source receives 115 V.",
+    "hvac_application": "Recognize fan and compressor branches connected across the same supply nodes. / 辨識風扇及壓縮機跨相同供電節點的支路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Equal branch voltage does not require equal branch current. / 支路等電壓不要求等電流。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-006",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-a990a2b67592",
+      "HV2-c16e30ed2c36",
+      "HV2-09983b34985c",
+      "HV2-547f32f7a71e",
+      "HV2-38e7ace08c8f"
+    ]
+  },
+  {
+    "id": "CH03-007",
+    "chapter": 3,
+    "topic_key": "parallelI",
+    "term_en": "Parallel current",
+    "term_zh": "並聯電流",
+    "definition_en": "Total current is the sum of branch currents.",
+    "explanation_zh": "並聯總電流等於各支路電流相加。",
+    "exam_note_en": "Adding a parallel load increases source current if voltage is maintained.",
+    "hvac_application": "Estimate total current from DC or in-phase training branches. / 由直流或同相訓練支路估總電流。",
+    "related_formulas": [
+      "It = ΣIi"
+    ],
+    "common_misconceptions": [
+      "Different-phase AC currents require phase-aware addition of waveforms or phasors. / 不同相位交流電流須依波形或相量相加。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-007",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-d938cddd7e98",
+      "HV2-963fbad61145",
+      "HV2-842615ab8694",
+      "HV2-3e446e80a786",
+      "HV2-e5e9ab015225",
+      "HV2-5dbee4d99777",
+      "HV2-5debdb6f7850"
+    ]
+  },
+  {
+    "id": "CH03-008",
+    "chapter": 3,
+    "topic_key": "parallelR",
+    "term_en": "Parallel resistance",
+    "term_zh": "並聯總電阻",
+    "definition_en": "For resistors, 1/Rt = Σ(1/Ri); for two resistors Rt = R1R2/(R1+R2).",
+    "explanation_zh": "並聯電阻倒數相加；兩個電阻可用乘積除以總和。",
+    "exam_note_en": "10 Ω and 15 Ω in parallel = 6 Ω.",
+    "hvac_application": "Recognize why an in-circuit resistance reading may be too low. / 辨識在電路內量阻為何可能偏低。",
+    "related_formulas": [
+      "1/Rt = Σ(1/Ri)"
+    ],
+    "common_misconceptions": [
+      "Parallel equivalent resistance is below the smallest positive branch resistance. / 正電阻並聯等效值小於最小支路。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-008",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-b7583b0c41cf",
+      "HV2-04a99ac7b563",
+      "HV2-0ae0d2c93100",
+      "HV2-d950c8cea36f",
+      "HV2-e290e8f28d00",
+      "HV2-5bfd18818d52",
+      "HV2-ea430141da02"
+    ]
+  },
+  {
+    "id": "CH03-009",
+    "chapter": 3,
+    "topic_key": "mixed",
+    "term_en": "Series-parallel circuits",
+    "term_zh": "串並聯混合",
+    "definition_en": "Real HVAC wiring often uses series safety/control contacts and parallel loads.",
+    "explanation_zh": "實際 HVAC 常用串聯安全接點及並聯負載。",
+    "exam_note_en": "Analyze each branch before reducing the network.",
+    "hvac_application": "Separate motor load branches from the contactor control path. / 分開理解馬達負載支路與接觸器控制通路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Power and control circuits need not have the same topology. / 動力與控制電路不必同拓撲。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-009",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-3657d35ccd1f",
+      "HV2-de85d9f05b30",
+      "HV2-1f4a4351b5f1",
+      "HV2-5e542babff12",
+      "HV2-5f3d0274dfc4"
+    ]
+  },
+  {
+    "id": "CH03-010",
+    "chapter": 3,
+    "topic_key": "controls",
+    "term_en": "Series safety switches",
+    "term_zh": "串聯安全開關",
+    "definition_en": "Thermostat and protective contacts may be in series so opening any required contact disables the controlled coil.",
+    "explanation_zh": "恆溫器與保護接點可串聯，任一必要接點斷開便停止控制線圈。",
+    "exam_note_en": "Actual control logic depends on the wiring diagram.",
+    "hvac_application": "Interpret a thermostat and pressure-safety series chain. / 解讀恆溫器與壓力保護串聯鏈。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "One open required series contact prevents coil energization; do not bypass it. / 必要串聯接點任一開路就阻止線圈通電，不可旁路。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-010",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-bee8589c723c",
+      "HV2-d759def15b87",
+      "HV2-bc585c82c331",
+      "HV2-7eeeb8eeb70a",
+      "HV2-1df86f386efd"
+    ]
+  },
+  {
+    "id": "CH03-011",
+    "chapter": 3,
+    "topic_key": "loads",
+    "term_en": "Parallel motor loads",
+    "term_zh": "並聯馬達負載",
+    "definition_en": "Compressor and fan motors are commonly connected as parallel loads across the intended supply voltage.",
+    "explanation_zh": "壓縮機與風扇馬達通常並聯取得額定供電電壓。",
+    "exam_note_en": "Control contacts can still be in series with individual branches.",
+    "hvac_application": "Analyze a fan branch opening without assuming compressor voltage vanishes. / 分析風扇支路開路，不假設壓縮機電壓消失。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Independent electrical branches can still have interacting mechanical and protective behavior. / 電氣獨立支路的機械與保護行為仍可能互相影響。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-011",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-d96eeaab01bb",
+      "HV2-db9b7ea78899",
+      "HV2-c627ab4048f8"
+    ]
+  },
+  {
+    "id": "CH03-012",
+    "chapter": 3,
+    "topic_key": "lamps",
+    "term_en": "Lamp brightness in circuits",
+    "term_zh": "燈泡串並聯亮度",
+    "definition_en": "Identical rated lamps in series across their rated supply generally glow dimmer; in parallel they operate at rated voltage.",
+    "explanation_zh": "相同燈泡串聯在原額定電源下通常較暗，並聯則各得額定電壓。",
+    "exam_note_en": "Brightness depends on lamp technology and actual electrical characteristics.",
+    "hvac_application": "Compare training-lamp brightness in series and parallel. / 比較訓練燈串並聯亮度。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Cold filament resistance is not a constant operating resistance. / 冷態燈絲電阻不是固定工作電阻。"
+    ],
+    "content_class": "classroom_model",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-012",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-bc3413b8d113",
+      "HV2-3dd68a6c04d7",
+      "HV2-17282e58b44b",
+      "HV2-aed111fb76f2"
+    ]
+  },
+  {
+    "id": "CH03-013",
+    "chapter": 3,
+    "topic_key": "capacitorbranch",
+    "term_en": "Motor run capacitor connection",
+    "term_zh": "馬達運轉電容接線",
+    "definition_en": "A run capacitor is commonly in series with an auxiliary winding branch, not with the entire compressor supply.",
+    "explanation_zh": "運轉電容通常與輔助繞組支路串聯，而非整台壓縮機供電串聯。",
+    "exam_note_en": "Always inspect the actual motor circuit.",
+    "hvac_application": "Use the manufacturer PSC motor diagram to locate the auxiliary capacitor branch. / 用原廠 PSC 馬達圖找輔助電容支路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Do not assume one capacitor topology fits all motor types. / 不可假設所有馬達用同電容拓撲。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH03-013",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-9d16eaaba889",
+      "HV2-524eb334b9ca",
+      "HV2-ee5ace51581c"
+    ]
+  },
+  {
+    "id": "CH04-001",
+    "chapter": 4,
+    "topic_key": "voltmeter",
+    "term_en": "Voltmeter connection",
+    "term_zh": "電壓表接法",
+    "definition_en": "Connect a properly rated voltmeter in parallel across two measurement points.",
+    "explanation_zh": "合適額定電壓表並聯在兩測點之間。",
+    "exam_note_en": "Never insert a voltmeter as a series load.",
+    "hvac_application": "Choose the two nodes whose potential difference is needed. / 選出欲量電位差的兩個節點。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "High input impedance reduces loading but can permit coupled ghost-voltage indications. / 高輸入阻抗減負載效應但可能顯示耦合虛電壓。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-001",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-8914f8a4f80d",
+      "HV2-90635a0656e9",
+      "HV2-8f6b660d88da",
+      "HV2-cae117a239f7",
+      "HV2-194833887715",
+      "HV2-0db3446078ed"
+    ]
+  },
+  {
+    "id": "CH04-002",
+    "chapter": 4,
+    "topic_key": "ammeter",
+    "term_en": "Ammeter connection",
+    "term_zh": "電流表接法",
+    "definition_en": "A conventional inline ammeter is inserted in series and must be rated and correctly fused.",
+    "explanation_zh": "一般串入式電流表須串聯且符合額定及保險絲要求。",
+    "exam_note_en": "A clamp meter avoids opening the conductor.",
+    "hvac_application": "Understand the series path of an inline current test setup. / 理解串入式電流測試的串聯通路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A current input across a source can create a dangerous short. / 電流輸入跨電源可能造成危險短路。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-002",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-8ebd77b0500e",
+      "HV2-c7e3d50346e3",
+      "HV2-f44027424a46"
+    ]
+  },
+  {
+    "id": "CH04-003",
+    "chapter": 4,
+    "topic_key": "ohmmeter",
+    "term_en": "Ohmmeter safety",
+    "term_zh": "歐姆表安全",
+    "definition_en": "A resistance meter supplies its own test signal. Isolate all energy sources, verify absence of voltage using an appropriate procedure, discharge stored energy according to the manufacturer, and isolate the component as needed before resistance measurement.",
+    "explanation_zh": "電阻表自行供應測試訊號。量測前須隔離所有能源、依合適程序驗證無電、按原廠方法處理儲能，並視需要隔離元件，避免並聯通路影響結果。",
+    "exam_note_en": "Never use resistance mode on an energized circuit.",
+    "hvac_application": "Interpret isolated heater and coil resistance without parallel-path errors. / 解讀隔離加熱器及線圈電阻，避免並聯通路誤差。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Power off alone does not address stored energy or alternative paths. / 只關電源未處理儲能及其他通路。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-003",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-169f080dd8d9",
+      "HV2-573d29999cc2",
+      "HV2-c2e35c64be40",
+      "HV2-136261258f65",
+      "HV2-34e3deea9a40"
+    ]
+  },
+  {
+    "id": "CH04-004",
+    "chapter": 4,
+    "topic_key": "clamp",
+    "term_en": "Clamp ammeter",
+    "term_zh": "鉤表",
+    "definition_en": "A clamp meter senses the magnetic field around a conductor to measure current.",
+    "explanation_zh": "鉤表感測導體周圍磁場來測電流。",
+    "exam_note_en": "Clamp a single conductor for ordinary load current measurement.",
+    "hvac_application": "Select an AC- or DC-capable clamp appropriate to the HVAC conductor. / 選適合 HVAC 導體的交流或直流鉤表。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Not every AC clamp can measure steady DC. / 不是所有交流鉤表都能量穩態直流。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-004",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-aa123c7de75f",
+      "HV2-f5cb0e41b009",
+      "HV2-caaa287328fd",
+      "HV2-7f2de3202d78"
+    ]
+  },
+  {
+    "id": "CH04-005",
+    "chapter": 4,
+    "topic_key": "cancel",
+    "term_en": "Clamp current cancellation",
+    "term_zh": "鉤表電流抵消",
+    "definition_en": "Opposite currents through the clamp aperture tend to cancel; same-direction currents add algebraically.",
+    "explanation_zh": "反方向電流磁場相消，同方向電流代數相加。",
+    "exam_note_en": "Clamping live and neutral together can read near zero under normal balanced conditions.",
+    "hvac_application": "Explain near-zero current when a balanced whole cord is clamped. / 解釋鉤整條平衡電纜時近零讀值。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Near-zero net clamp reading does not mean no load current. / 淨鉤值近零不代表沒有負載電流。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-005",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-04a4dc0a6ad9",
+      "HV2-fa2a0f228435",
+      "HV2-142acc9ed8d9"
+    ]
+  },
+  {
+    "id": "CH04-006",
+    "chapter": 4,
+    "topic_key": "turns",
+    "term_en": "Multiple-turn clamp measurement",
+    "term_zh": "鉤表多圈測量",
+    "definition_en": "If one conductor passes through the clamp N times, divide the indicated current by N.",
+    "explanation_zh": "同一導線穿過鉤口 N 圈，讀數除以 N。",
+    "exam_note_en": "4 A indicated with 3 turns ≈ 1.33 A actual.",
+    "hvac_application": "Improve low-current training resolution with a known number of passes. / 以已知穿過圈數提高低電流訓練解析度。",
+    "related_formulas": [
+      "Iactual = Idisplay / N"
+    ],
+    "common_misconceptions": [
+      "The display is multiplied, not the actual circuit current. / 放大的是顯示值，不是實際電路電流。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-006",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-bc85ff50a588",
+      "HV2-08f9425769a3",
+      "HV2-b65a15e33de5",
+      "HV2-16ce070cc7b9",
+      "HV2-1f912f2d0a33",
+      "HV2-de6e30c254ce"
+    ]
+  },
+  {
+    "id": "CH04-007",
+    "chapter": 4,
+    "topic_key": "analog",
+    "term_en": "Analog meter scale",
+    "term_zh": "指針電表刻度",
+    "definition_en": "Analog meters require reading the correct scale and multiplier.",
+    "explanation_zh": "指針表須讀正確刻度及倍率。",
+    "exam_note_en": "2.5 on R×1000 = 2500 Ω.",
+    "hvac_application": "Read the correct voltage scale during analog-meter labs. / 指針表實驗讀正確電壓刻度。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "The same pointer position can mean different values on different ranges. / 同指針位置在不同檔位可代表不同值。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-007",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-5b5c9b3e6ed7",
+      "HV2-085d40c79d34",
+      "HV2-1e530bd3bc3c"
+    ]
+  },
+  {
+    "id": "CH04-008",
+    "chapter": 4,
+    "topic_key": "digital",
+    "term_en": "Digital meter units",
+    "term_zh": "數位電表單位",
+    "definition_en": "A digital meter displays a numerical reading; pay attention to unit prefixes and mode.",
+    "explanation_zh": "數位表顯示數字，須注意單位前綴與量測模式。",
+    "exam_note_en": "12.345 kΩ = 12345 Ω.",
+    "hvac_application": "Avoid a thousand-fold prefix error when reading a control meter. / 讀控制電表時避免千倍前綴錯誤。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "0.024 A equals 24 mA, not 0.024 mA. / 0.024 A 等於 24 mA，不是 0.024 mA。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-008",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-b39adadeb28f",
+      "HV2-371ead0f9a95",
+      "HV2-ecd1ea1e33d6"
+    ]
+  },
+  {
+    "id": "CH04-009",
+    "chapter": 4,
+    "topic_key": "noncontact",
+    "term_en": "Non-contact voltage detector",
+    "term_zh": "非接觸驗電筆",
+    "definition_en": "A non-contact detector can indicate the presence of an electric field but cannot alone prove absence of hazardous voltage.",
+    "explanation_zh": "非接觸驗電筆可提示電場存在，但不能單獨證明無危險電壓。",
+    "exam_note_en": "Use appropriate rated contact testing and live-dead-live verification procedures.",
+    "hvac_application": "Treat non-contact detection as a preliminary indication, not proof of isolation. / 將非接觸偵測視初步指示，不當隔離證據。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Absence of indication is not verified absence of voltage. / 無指示不等於已驗證無電壓。"
+    ],
+    "content_class": "safety_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-009",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-ebd3105b15c5",
+      "HV2-d466750e0264",
+      "HV2-c0eb035c1bf9"
+    ]
+  },
+  {
+    "id": "CH04-010",
+    "chapter": 4,
+    "topic_key": "continuity",
+    "term_en": "Continuity and resistance",
+    "term_zh": "導通與電阻",
+    "definition_en": "Continuity means a conductive path exists; resistance and buzzer thresholds vary by meter.",
+    "explanation_zh": "導通表示有導電路徑，阻值及蜂鳴門檻依電表不同。",
+    "exam_note_en": "Near zero Ω is normal for a closed switch and is not automatically a fault.",
+    "hvac_application": "Distinguish a contact's low-current continuity from its loaded condition. / 區分接點低電流導通與負載工作狀態。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A beep does not prove a zero-ohm or full-load-quality contact. / 蜂鳴不證明零歐姆或可正常滿載。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-010",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-83f89de515b3",
+      "HV2-f7a2123e825d",
+      "HV2-e300113409da"
+    ]
+  },
+  {
+    "id": "CH04-011",
+    "chapter": 4,
+    "topic_key": "openreading",
+    "term_en": "Open-circuit meter reading",
+    "term_zh": "開路電表讀值",
+    "definition_en": "An isolated open path generally shows OL or very high resistance.",
+    "explanation_zh": "已隔離的開路通常顯示 OL 或極高電阻。",
+    "exam_note_en": "Parallel paths can distort in-circuit readings.",
+    "hvac_application": "Check range and isolation before diagnosing an open winding from OL. / 由 OL 判斷繞組開路前核對量程及隔離。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "OL can be overrange rather than physical discontinuity. / OL 可能超量程而非實際斷路。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-011",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-7409caf294b3",
+      "HV2-98100b730b46",
+      "HV2-bd9549205d95"
+    ]
+  },
+  {
+    "id": "CH04-012",
+    "chapter": 4,
+    "topic_key": "calibration",
+    "term_en": "Meter calibration",
+    "term_zh": "電表校驗",
+    "definition_en": "Calibration compares readings against known references and identifies unacceptable measurement error.",
+    "explanation_zh": "校驗以已知標準比較讀值，辨識不可接受的誤差。",
+    "exam_note_en": "Do not use an instrument that fails required checks.",
+    "hvac_application": "Compare instruments to known references before relying on unusual lab readings. / 相信異常實驗讀值前，將儀表與已知標準比較。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Agreement between unverified meters does not establish traceable accuracy. / 未校驗表一致不建立可追溯準確度。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-012",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-6f03fef86a8b",
+      "HV2-c53a62158621",
+      "HV2-bb16e73d6208",
+      "HV2-3b8e038027fa",
+      "HV2-d2d99d12fbe7"
+    ]
+  },
+  {
+    "id": "CH04-013",
+    "chapter": 4,
+    "topic_key": "functionrange",
+    "term_en": "Meter function and range",
+    "term_zh": "電表功能與檔位",
+    "definition_en": "Function selects the measured quantity (V/A/Ω); range selects the measurement scale.",
+    "explanation_zh": "function 選 V/A/Ω，range 選量測範圍。",
+    "exam_note_en": "Confirm AC/DC setting and lead jack placement.",
+    "hvac_application": "Check quantity, AC/DC mode, jacks, range and CAT suitability before use. / 使用前核對物理量、交直流、插孔、檔位及 CAT 適用性。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Display range is not a substitute for transient-category rating. / 顯示量程不能取代暫態類別額定。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-013",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-589262a85001",
+      "HV2-c173ebc76b66",
+      "HV2-05febeadc737",
+      "HV2-294d295c7c32",
+      "HV2-011da41715da"
+    ]
+  },
+  {
+    "id": "CH04-014",
+    "chapter": 4,
+    "topic_key": "tolerance",
+    "term_en": "Resistor tolerance code",
+    "term_zh": "電阻誤差色碼",
+    "definition_en": "A gold tolerance band typically indicates ±5% tolerance.",
+    "explanation_zh": "金色容差環通常代表 ±5%。",
+    "exam_note_en": "Tolerance describes allowed component variation.",
+    "hvac_application": "Judge an isolated replacement resistor against its stated tolerance. / 依指定容差判斷隔離替換電阻。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Nominal resistance need not equal measured resistance exactly. / 標稱阻值不必精確等於量測值。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH04-014",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-c1120adcfb85",
+      "HV2-2c5bbfee1251",
+      "HV2-8ccbf2974d4e",
+      "HV2-ea10a64b2d69",
+      "HV2-377b5d42718d",
+      "HV2-c5bb240e0eb0"
+    ]
+  },
+  {
+    "id": "CH05-001",
+    "chapter": 5,
+    "topic_key": "load",
+    "term_en": "Electrical loads",
+    "term_zh": "電氣負載",
+    "definition_en": "Motors, heater elements, lamps and energized coils are electrical loads; a battery is a source.",
+    "explanation_zh": "馬達、加熱器、燈及通電線圈是負載；電池是電源。",
+    "exam_note_en": "A contactor coil is a load.",
+    "hvac_application": "Identify coils, motors and heaters as loads on an HVAC wiring diagram. / 在 HVAC 接線圖辨識線圈、馬達及加熱器負載。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "An energized coil consumes input; it is not the circuit's normal supply. / 通電線圈消耗輸入，不是電路正常電源。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-001",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-edb470f90354",
+      "HV2-bb3cd06c4be3",
+      "HV2-82f003ac2ad9"
+    ]
+  },
+  {
+    "id": "CH05-002",
+    "chapter": 5,
+    "topic_key": "motor",
+    "term_en": "HVAC motors",
+    "term_zh": "HVAC 馬達",
+    "definition_en": "Motors convert electrical energy into mechanical work for compressors, fans and pumps.",
+    "explanation_zh": "馬達把電能轉成機械功，驅動壓縮機、風扇與泵。",
+    "exam_note_en": "Motors may draw high starting current.",
+    "hvac_application": "Connect fan and pump shaft work to electrical input and losses. / 把風扇及泵軸功與電輸入及損失連結。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Current alone does not prove rotation or airflow. / 只有電流不證明旋轉或風量。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-002",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-cf501eef3fbe",
+      "HV2-9edbf5bab181",
+      "HV2-7c502746edf1"
+    ]
+  },
+  {
+    "id": "CH05-003",
+    "chapter": 5,
+    "topic_key": "solenoid",
+    "term_en": "Solenoid and coil",
+    "term_zh": "電磁線圈",
+    "definition_en": "Current through a coil produces a magnetic field used to actuate valves or switching devices.",
+    "explanation_zh": "線圈通電產生磁場，驅動閥或開關裝置。",
+    "exam_note_en": "Distinguish the coil from its controlled contacts.",
+    "hvac_application": "Relate solenoid current to magnetic valve actuation. / 將電磁閥電流與磁驅動連結。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Voltage across an open coil does not produce normal coil current. / 開路線圈兩端有電壓不會產生正常線圈電流。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-003",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-e38d85b59bcd",
+      "HV2-e4bb2ea29ba6",
+      "HV2-717179d6f40f"
+    ]
+  },
+  {
+    "id": "CH05-004",
+    "chapter": 5,
+    "topic_key": "relay",
+    "term_en": "Relay",
+    "term_zh": "繼電器",
+    "definition_en": "A relay uses an energized coil to change contact states, often in control circuits.",
+    "explanation_zh": "繼電器透過線圈改變接點狀態，常用於控制迴路。",
+    "exam_note_en": "Relay and contactor are not differentiated solely by physical size.",
+    "hvac_application": "Use a control coil to operate separately rated load contacts. / 以控制線圈操作獨立額定負載接點。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A coil click does not prove all contacts can carry load. / 線圈吸合聲不證明所有接點能帶負載。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-004",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-8d072f5007fc",
+      "HV2-db7c5b2b8001",
+      "HV2-a4c9384319d4",
+      "HV2-5c6f6dff025d"
+    ]
+  },
+  {
+    "id": "CH05-005",
+    "chapter": 5,
+    "topic_key": "contactor",
+    "term_en": "Contactor",
+    "term_zh": "接觸器",
+    "definition_en": "A contactor is a switching device designed for controlling power loads such as motors.",
+    "explanation_zh": "接觸器用來切換馬達等動力負載。",
+    "exam_note_en": "Check utilization category and ratings.",
+    "hvac_application": "Match compressor switching contacts to motor duty and starting demand. / 依馬達使用類別及起動需求匹配壓縮機切換接點。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Coil voltage alone does not determine contact suitability. / 只有線圈電壓不能決定接點適用性。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-005",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-c68ec7870d83",
+      "HV2-48b97fd00dcc",
+      "HV2-d11020a8b936"
+    ]
+  },
+  {
+    "id": "CH05-006",
+    "chapter": 5,
+    "topic_key": "NO",
+    "term_en": "Normally open contact",
+    "term_zh": "常開接點",
+    "definition_en": "An NO contact is open in its defined normal state and closes when actuated.",
+    "explanation_zh": "NO 接點在定義的正常狀態下斷開，動作時閉合。",
+    "exam_note_en": "Schematic normal state must be interpreted from drawing conventions.",
+    "hvac_application": "Read NO auxiliary contacts in the unactuated diagram state. / 以未動作圖示狀態讀 NO 輔助接點。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Normal does not mean the machine is currently running. / 正常不代表機器目前運轉中。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-006",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-dfd5fb247699",
+      "HV2-1fce4f7a6487",
+      "HV2-1442365e4f41"
+    ]
+  },
+  {
+    "id": "CH05-007",
+    "chapter": 5,
+    "topic_key": "NC",
+    "term_en": "Normally closed contact",
+    "term_zh": "常閉接點",
+    "definition_en": "An NC contact is closed in its defined normal state and opens when actuated.",
+    "explanation_zh": "NC 接點在正常狀態閉合，動作時斷開。",
+    "exam_note_en": "Normal may refer to de-energized or unactuated state depending on device.",
+    "hvac_application": "Trace NC stop and interlock contacts before and after actuation. / 追蹤 NC 停止與互鎖接點動作前後狀態。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "NC is not a promise that the contact is always closed. / NC 不保證接點永遠閉合。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-007",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-e944d2ce7292",
+      "HV2-8fc25fa72bc9",
+      "HV2-2c3fade50298"
+    ]
+  },
+  {
+    "id": "CH05-008",
+    "chapter": 5,
+    "topic_key": "starter",
+    "term_en": "Magnetic motor starter",
+    "term_zh": "電磁馬達啟動器",
+    "definition_en": "A magnetic starter combines a contactor with motor overload protection.",
+    "explanation_zh": "電磁啟動器結合接觸器與馬達過載保護。",
+    "exam_note_en": "Overload protection does not replace short-circuit protection.",
+    "hvac_application": "Separate contactor switching from overload protection in a starter. / 在啟動器中區分接觸器切換與過載保護。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A starter may still require separate branch short-circuit protection. / 啟動器仍可能需要獨立分路短路保護。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-008",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-45e2514993ca",
+      "HV2-025d5bac10c2",
+      "HV2-75bc369d82b7"
+    ]
+  },
+  {
+    "id": "CH05-009",
+    "chapter": 5,
+    "topic_key": "polethrow",
+    "term_en": "Poles and throws",
+    "term_zh": "極與投",
+    "definition_en": "Pole counts independently switched circuits; throw describes selectable contact positions or paths.",
+    "explanation_zh": "pole 表獨立切換迴路組數；throw 表切換位置或路徑。",
+    "exam_note_en": "SPST and DPST are common switch descriptions.",
+    "hvac_application": "Choose SPDT for one circuit selection or DPST for two on/off poles. / 一路選擇用 SPDT，兩極通斷可用 DPST。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Poles count independent circuits; throws count selections, not amperes. / 極數計獨立迴路，投數計選擇，不是安培數。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-009",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-f35999f86664",
+      "HV2-4d98d6cdc1f1",
+      "HV2-f0644eae7090"
+    ]
+  },
+  {
+    "id": "CH05-010",
+    "chapter": 5,
+    "topic_key": "disconnect",
+    "term_en": "Disconnect switch",
+    "term_zh": "隔離開關",
+    "definition_en": "A disconnect provides a means to isolate equipment from its electrical supply.",
+    "explanation_zh": "隔離開關用於將設備與供電分離。",
+    "exam_note_en": "Follow rated isolation and lockout procedures.",
+    "hvac_application": "Identify line-side and load-side boundaries of an HVAC disconnect. / 辨識 HVAC 隔離開關電源側及負載側界線。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "An open handle does not prove upstream terminals dead. / 開把手不證明上游端子無電。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-010",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-f8c69f4f505d",
+      "HV2-001d22dbaf82",
+      "HV2-f9326306c0c9"
+    ]
+  },
+  {
+    "id": "CH05-011",
+    "chapter": 5,
+    "topic_key": "thermostat",
+    "term_en": "Cooling and heating thermostat",
+    "term_zh": "冷暖恆溫器",
+    "definition_en": "A simple cooling call closes on temperature rise; a simple heating call opens on temperature rise in the course example.",
+    "explanation_zh": "簡化課堂例子：冷氣溫升閉合、暖氣溫升斷開。",
+    "exam_note_en": "Actual thermostat contacts and control logic vary by design.",
+    "hvac_application": "Use a simple on/off model before learning model-specific heat-pump sequences. / 先用簡單通斷模型再學專用熱泵流程。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Thermostat logic varies with equipment and mode. / 恆溫器邏輯依設備及模式變化。"
+    ],
+    "content_class": "classroom_model",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-011",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-a12cf225788e",
+      "HV2-b64d882e1b71",
+      "HV2-8195167c04d8"
+    ]
+  },
+  {
+    "id": "CH05-012",
+    "chapter": 5,
+    "topic_key": "pressure",
+    "term_en": "Pressure switches",
+    "term_zh": "壓力開關",
+    "definition_en": "Pressure-operated contacts can open or close on rising pressure according to intended control or safety function.",
+    "explanation_zh": "壓力開關可依用途設計為壓升斷開或閉合。",
+    "exam_note_en": "High- and low-pressure protection behavior depends on the circuit.",
+    "hvac_application": "Interpret pressure-safety action from its cut-in and cut-out specification. / 依切入切出規格解讀壓力保護動作。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Not every pressure switch opens on pressure rise. / 不是所有壓力開關都壓升斷開。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-012",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-f0bb82440b7b",
+      "HV2-8efcb9b4df56",
+      "HV2-5967ff9726f0"
+    ]
+  },
+  {
+    "id": "CH05-013",
+    "chapter": 5,
+    "topic_key": "push",
+    "term_en": "Push-button switches",
+    "term_zh": "按鈕開關",
+    "definition_en": "Push buttons may have normally open or normally closed contacts for start/stop controls.",
+    "explanation_zh": "按鈕可使用 NO 或 NC 接點作啟停控制。",
+    "exam_note_en": "A STOP button is often NC in a conventional three-wire starter circuit.",
+    "hvac_application": "Trace a momentary start circuit with and without a holding contact. / 追蹤有無自保持接點的瞬時啟動電路。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A momentary start button alone does not latch a coil. / 瞬時啟動鈕本身不使線圈保持。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-013",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-d112c82ffcb2",
+      "HV2-51003d061d3e",
+      "HV2-f65f5e050d8f"
+    ]
+  },
+  {
+    "id": "CH05-014",
+    "chapter": 5,
+    "topic_key": "thermal",
+    "term_en": "Thermal overload relay",
+    "term_zh": "熱過載保護",
+    "definition_en": "Thermal overload devices respond to heating associated with excess motor current.",
+    "explanation_zh": "熱過載裝置依過電流引起的熱效應動作。",
+    "exam_note_en": "Bimetallic elements are a common implementation.",
+    "hvac_application": "Interpret delayed overload trips without defeating motor protection. / 解讀延遲過載跳脫而不破壞馬達保護。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A trip is a reason to investigate, not to bypass protection. / 跳脫是調查原因，不是旁路保護的理由。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-014",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-663624736676",
+      "HV2-5e098a187b92",
+      "HV2-54b5da2b4929"
+    ]
+  },
+  {
+    "id": "CH05-015",
+    "chapter": 5,
+    "topic_key": "magnetic",
+    "term_en": "Magnetic overload protection",
+    "term_zh": "磁性過載保護",
+    "definition_en": "Magnetic current-operated protection responds to current according to a specified trip characteristic. Its role as overload or short-circuit protection depends on the device design and rating.",
+    "explanation_zh": "磁性電流保護依指定跳脫特性動作；是否具過載或短路保護功能，須看裝置設計與額定，不能一概而論。",
+    "exam_note_en": "Do not confuse overload with short-circuit protection.",
+    "hvac_application": "Read device trip curves before identifying magnetic protection functions. / 辨識磁性保護功能前先讀跳脫曲線。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Magnetic does not by itself specify overload versus short-circuit duty. / magnetic 一詞本身不指定過載或短路用途。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-015",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-f55e75ac8ec9",
+      "HV2-e173a535d244",
+      "HV2-1714913e3e74"
+    ]
+  },
+  {
+    "id": "CH05-016",
+    "chapter": 5,
+    "topic_key": "transformer",
+    "term_en": "Control transformer",
+    "term_zh": "控制變壓器",
+    "definition_en": "A transformer changes AC voltage through magnetic coupling; many HVAC controls use approximately 24 VAC secondary voltage.",
+    "explanation_zh": "變壓器藉磁耦合改變交流電壓；HVAC 控制常使用約 24 VAC。",
+    "exam_note_en": "Example 240 VAC primary to 24 VAC secondary.",
+    "hvac_application": "Respect secondary VA and coil inrush when sizing 24 VAC controls. / 設計 24 VAC 控制須尊重次級 VA 及線圈湧入需求。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Low secondary voltage does not mean unlimited capacity or no hazards. / 次級低壓不代表容量無限或無危害。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-016",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-6457207d0a58",
+      "HV2-94be4eb695ff",
+      "HV2-5e7e8d926810",
+      "HV2-a9d63b977866"
+    ]
+  },
+  {
+    "id": "CH05-017",
+    "chapter": 5,
+    "topic_key": "schematic",
+    "term_en": "Schematic diagram",
+    "term_zh": "電氣原理圖",
+    "definition_en": "A schematic emphasizes electrical logic and relationships rather than physical placement.",
+    "explanation_zh": "原理圖重視電路邏輯與元件關係，而非實際位置。",
+    "exam_note_en": "Use legend and normal contact states.",
+    "hvac_application": "Use K1 labels to link a coil and distributed contacts in ladder diagrams. / 用 K1 標號連結梯形圖中分散的線圈接點。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "Schematic spacing does not establish physical spacing. / 原理圖間距不代表實體間距。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-017",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-cb035d125e05",
+      "HV2-f397ecc7edc4",
+      "HV2-930b197c5906"
+    ]
+  },
+  {
+    "id": "CH05-018",
+    "chapter": 5,
+    "topic_key": "pictorial",
+    "term_en": "Pictorial diagram",
+    "term_zh": "實體配線圖",
+    "definition_en": "A pictorial diagram emphasizes recognizable components and their approximate physical connections.",
+    "explanation_zh": "實體圖著重元件外觀與連接位置。",
+    "exam_note_en": "Useful for locating components.",
+    "hvac_application": "Recognize component appearance while cross-checking the circuit logic diagram. / 辨識元件外觀，同時交叉核對電路邏輯圖。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A pictorial layout is not always the clearest representation of logic. / 實體配置不一定最清楚呈現邏輯。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-018",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-65321a3c18b3",
+      "HV2-62a70b27d465",
+      "HV2-6ffe0dfd75e3"
+    ]
+  },
+  {
+    "id": "CH05-019",
+    "chapter": 5,
+    "topic_key": "installation",
+    "term_en": "Installation wiring diagram",
+    "term_zh": "安裝配線圖",
+    "definition_en": "An installation diagram provides field wiring and terminal information such as conductor identification and protective device requirements.",
+    "explanation_zh": "安裝圖提供端子、導線識別與保護裝置等施工資訊。",
+    "exam_note_en": "Always follow the equipment-specific approved diagram.",
+    "hvac_application": "Find model-specific field terminals and conductor identification. / 查找該型號現場端子與導線識別。",
+    "related_formulas": [],
+    "common_misconceptions": [
+      "A generic sketch does not replace the model installation instructions. / 通用草圖不取代該型號安裝指示。"
+    ],
+    "content_class": "technical_principle",
+    "verification_status": "principle_reviewed_original_source_pending",
+    "source_reference": {
+      "file": "content/knowledge.seed.json",
+      "record": "CH05-019",
+      "original_verified": false,
+      "note": "Project-authored review material derived from a private summary; original course files are not included or verified."
+    },
+    "source_limitations": "未取得 Blackboard 原始簡報／Lab，未核對課程措辭、版本及法規條文。",
+    "related_question_ids": [
+      "HV2-df1200bcd368",
+      "HV2-41e73d8a128d",
+      "HV2-900ae3a081e8"
+    ]
+  }
+]

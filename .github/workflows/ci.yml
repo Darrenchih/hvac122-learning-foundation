@@ -1,0 +1,37 @@
+name: HVAC-122 Foundation
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'jsonschema>=4.20,<5'
+      - run: python scripts/run_tests.py
+      - name: Check deterministic data generation
+        run: |
+          python scripts/build_data.py
+          git diff --exit-code -- app/bank.js data/knowledge.json data/questions.json
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'playwright>=1.40,<2'
+      - run: python -m playwright install --with-deps chromium
+      - name: Select installed Chromium
+        run: python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print("HVAC_BROWSER="+p.chromium.executable_path); p.stop()' >> "$GITHUB_ENV"
+      - run: python tests/browser_smoke.py
+      - run: python tests/browser_content_smoke.py

@@ -1,0 +1,434 @@
+[
+  {
+    "a": "HV2-e33e62b14714",
+    "b": "HV2-e5428c656a5b",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "An ideal HVAC training resistor of 12 Ω has 24 V DC across it. What current flows?",
+    "b_en": "An ideal HVAC training resistor of 30 Ω has 120 V DC across it. What current flows?"
+  },
+  {
+    "a": "HV2-e33e62b14714",
+    "b": "HV2-75dbd3329f7a",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "An ideal HVAC training resistor of 12 Ω has 24 V DC across it. What current flows?",
+    "b_en": "An ideal HVAC training resistor of 60 Ω has 240 V DC across it. What current flows?"
+  },
+  {
+    "a": "HV2-aaf90383ddde",
+    "b": "HV2-57aa2daac657",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A resistive control-test load carries 2 A and measures 12 Ω. What DC voltage is required?",
+    "b_en": "A resistive control-test load carries 3 A and measures 20 Ω. What DC voltage is required?"
+  },
+  {
+    "a": "HV2-aaf90383ddde",
+    "b": "HV2-e9cdec9bab64",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A resistive control-test load carries 2 A and measures 12 Ω. What DC voltage is required?",
+    "b_en": "A resistive control-test load carries 5 A and measures 30 Ω. What DC voltage is required?"
+  },
+  {
+    "a": "HV2-f70d8261c845",
+    "b": "HV2-24e91deeec1c",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A DC heater draws 0.5 A at 24 V at steady state. What is its resistance?",
+    "b_en": "A DC heater draws 4 A at 120 V at steady state. What is its resistance?"
+  },
+  {
+    "a": "HV2-f70d8261c845",
+    "b": "HV2-17fb524b860d",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A DC heater draws 0.5 A at 24 V at steady state. What is its resistance?",
+    "b_en": "A DC heater draws 8 A at 240 V at steady state. What is its resistance?"
+  },
+  {
+    "a": "HV2-7b213d468e6f",
+    "b": "HV2-a9e595b2f284",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A unity-PF heater operates at 120 V RMS and 5 A RMS. What real power does it use?",
+    "b_en": "A unity-PF heater operates at 208 V RMS and 10 A RMS. What real power does it use?"
+  },
+  {
+    "a": "HV2-7b213d468e6f",
+    "b": "HV2-ba74642b1176",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A unity-PF heater operates at 120 V RMS and 5 A RMS. What real power does it use?",
+    "b_en": "A unity-PF heater operates at 240 V RMS and 15 A RMS. What real power does it use?"
+  },
+  {
+    "a": "HV2-39061f4c1c65",
+    "b": "HV2-f0a9febee8d3",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater element of 10 Ω carries 2 A RMS. What is its heating power?",
+    "b_en": "A heater element of 20 Ω carries 3 A RMS. What is its heating power?"
+  },
+  {
+    "a": "HV2-39061f4c1c65",
+    "b": "HV2-65b5d0ea0862",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater element of 10 Ω carries 2 A RMS. What is its heating power?",
+    "b_en": "A heater element of 30 Ω carries 4 A RMS. What is its heating power?"
+  },
+  {
+    "a": "HV2-99e7f2eb6bbb",
+    "b": "HV2-7fcf20bbef0f",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A fixed 12 Ω heater is connected to 24 V RMS. What power is dissipated?",
+    "b_en": "A fixed 24 Ω heater is connected to 120 V RMS. What power is dissipated?"
+  },
+  {
+    "a": "HV2-99e7f2eb6bbb",
+    "b": "HV2-32e8c129de32",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A fixed 12 Ω heater is connected to 24 V RMS. What power is dissipated?",
+    "b_en": "A fixed 48 Ω heater is connected to 240 V RMS. What power is dissipated?"
+  },
+  {
+    "a": "HV2-8003d1f23f7f",
+    "b": "HV2-650fd73c9625",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A single-phase motor input is 120 V RMS, 10 A RMS, true PF 0.8. What is real electrical input power?",
+    "b_en": "A single-phase motor input is 208 V RMS, 5 A RMS, true PF 0.75. What is real electrical input power?"
+  },
+  {
+    "a": "HV2-8003d1f23f7f",
+    "b": "HV2-104aa9a43012",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A single-phase motor input is 120 V RMS, 10 A RMS, true PF 0.8. What is real electrical input power?",
+    "b_en": "A single-phase motor input is 240 V RMS, 8 A RMS, true PF 0.9. What is real electrical input power?"
+  },
+  {
+    "a": "HV2-16eedb022774",
+    "b": "HV2-49d6b49e66a8",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater draws a constant 500 W for 2 h. What electrical energy is used?",
+    "b_en": "A heater draws a constant 1200 W for 3 h. What electrical energy is used?"
+  },
+  {
+    "a": "HV2-16eedb022774",
+    "b": "HV2-98f96464de73",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater draws a constant 500 W for 2 h. What electrical energy is used?",
+    "b_en": "A heater draws a constant 2000 W for 1.5 h. What electrical energy is used?"
+  },
+  {
+    "a": "HV2-3a8be6b02dc3",
+    "b": "HV2-35dbf892646d",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A motor delivers 0.5 mechanical hp at efficiency 0.8. Using 746 W/hp, what electrical input power is required?",
+    "b_en": "A motor delivers 1 mechanical hp at efficiency 0.75. Using 746 W/hp, what electrical input power is required?"
+  },
+  {
+    "a": "HV2-3a8be6b02dc3",
+    "b": "HV2-2ed9cb2769e6",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A motor delivers 0.5 mechanical hp at efficiency 0.8. Using 746 W/hp, what electrical input power is required?",
+    "b_en": "A motor delivers 2 mechanical hp at efficiency 0.9. Using 746 W/hp, what electrical input power is required?"
+  },
+  {
+    "a": "HV2-83f620304306",
+    "b": "HV2-e290e8f28d00",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 10 Ω and 20 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 12 Ω and 24 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-83f620304306",
+    "b": "HV2-72be51d1fc9e",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two ideal resistors 10 Ω and 20 Ω are in series. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 20 Ω and 40 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-83f620304306",
+    "b": "HV2-5bfd18818d52",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 10 Ω and 20 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 20 Ω and 40 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-83f620304306",
+    "b": "HV2-160d9094cc17",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two ideal resistors 10 Ω and 20 Ω are in series. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 30 Ω and 60 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-83f620304306",
+    "b": "HV2-ea430141da02",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 10 Ω and 20 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 30 Ω and 60 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-7968a22853ba",
+    "b": "HV2-e0fcf93a0013",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A 24 V DC supply feeds series resistors 10 Ω and 20 Ω. What is the voltage across the 20 Ω resistor?",
+    "b_en": "A 120 V DC supply feeds series resistors 20 Ω and 40 Ω. What is the voltage across the 40 Ω resistor?"
+  },
+  {
+    "a": "HV2-7968a22853ba",
+    "b": "HV2-ad40c3c288d4",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A 24 V DC supply feeds series resistors 10 Ω and 20 Ω. What is the voltage across the 20 Ω resistor?",
+    "b_en": "A 240 V DC supply feeds series resistors 30 Ω and 60 Ω. What is the voltage across the 60 Ω resistor?"
+  },
+  {
+    "a": "HV2-e290e8f28d00",
+    "b": "HV2-72be51d1fc9e",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Ideal 12 Ω and 24 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 20 Ω and 40 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-e290e8f28d00",
+    "b": "HV2-5bfd18818d52",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Ideal 12 Ω and 24 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Ideal 20 Ω and 40 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-e290e8f28d00",
+    "b": "HV2-160d9094cc17",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Ideal 12 Ω and 24 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 30 Ω and 60 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-e290e8f28d00",
+    "b": "HV2-ea430141da02",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Ideal 12 Ω and 24 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Ideal 30 Ω and 60 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-e5e9ab015225",
+    "b": "HV2-5dbee4d99777",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two parallel DC branches draw 2 A and 5 A. What is their combined supply current?",
+    "b_en": "Two parallel DC branches draw 3 A and 6 A. What is their combined supply current?"
+  },
+  {
+    "a": "HV2-e5e9ab015225",
+    "b": "HV2-5debdb6f7850",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two parallel DC branches draw 2 A and 5 A. What is their combined supply current?",
+    "b_en": "Two parallel DC branches draw 4 A and 8 A. What is their combined supply current?"
+  },
+  {
+    "a": "HV2-16ce070cc7b9",
+    "b": "HV2-1f912f2d0a33",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A suitable clamp shows 6 A with one insulated test conductor passing through 3 times in the same direction. What is the conductor current?",
+    "b_en": "A suitable clamp shows 12 A with one insulated test conductor passing through 4 times in the same direction. What is the conductor current?"
+  },
+  {
+    "a": "HV2-16ce070cc7b9",
+    "b": "HV2-de6e30c254ce",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A suitable clamp shows 6 A with one insulated test conductor passing through 3 times in the same direction. What is the conductor current?",
+    "b_en": "A suitable clamp shows 20 A with one insulated test conductor passing through 5 times in the same direction. What is the conductor current?"
+  },
+  {
+    "a": "HV2-ea10a64b2d69",
+    "b": "HV2-377b5d42718d",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A nominal 100 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?",
+    "b_en": "A nominal 200 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?"
+  },
+  {
+    "a": "HV2-ea10a64b2d69",
+    "b": "HV2-c5bb240e0eb0",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A nominal 100 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?",
+    "b_en": "A nominal 1000 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?"
+  },
+  {
+    "a": "HV2-e5428c656a5b",
+    "b": "HV2-75dbd3329f7a",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "An ideal HVAC training resistor of 30 Ω has 120 V DC across it. What current flows?",
+    "b_en": "An ideal HVAC training resistor of 60 Ω has 240 V DC across it. What current flows?"
+  },
+  {
+    "a": "HV2-57aa2daac657",
+    "b": "HV2-e9cdec9bab64",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A resistive control-test load carries 3 A and measures 20 Ω. What DC voltage is required?",
+    "b_en": "A resistive control-test load carries 5 A and measures 30 Ω. What DC voltage is required?"
+  },
+  {
+    "a": "HV2-24e91deeec1c",
+    "b": "HV2-17fb524b860d",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A DC heater draws 4 A at 120 V at steady state. What is its resistance?",
+    "b_en": "A DC heater draws 8 A at 240 V at steady state. What is its resistance?"
+  },
+  {
+    "a": "HV2-a9e595b2f284",
+    "b": "HV2-ba74642b1176",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A unity-PF heater operates at 208 V RMS and 10 A RMS. What real power does it use?",
+    "b_en": "A unity-PF heater operates at 240 V RMS and 15 A RMS. What real power does it use?"
+  },
+  {
+    "a": "HV2-f0a9febee8d3",
+    "b": "HV2-65b5d0ea0862",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater element of 20 Ω carries 3 A RMS. What is its heating power?",
+    "b_en": "A heater element of 30 Ω carries 4 A RMS. What is its heating power?"
+  },
+  {
+    "a": "HV2-7fcf20bbef0f",
+    "b": "HV2-32e8c129de32",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A fixed 24 Ω heater is connected to 120 V RMS. What power is dissipated?",
+    "b_en": "A fixed 48 Ω heater is connected to 240 V RMS. What power is dissipated?"
+  },
+  {
+    "a": "HV2-650fd73c9625",
+    "b": "HV2-104aa9a43012",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A single-phase motor input is 208 V RMS, 5 A RMS, true PF 0.75. What is real electrical input power?",
+    "b_en": "A single-phase motor input is 240 V RMS, 8 A RMS, true PF 0.9. What is real electrical input power?"
+  },
+  {
+    "a": "HV2-49d6b49e66a8",
+    "b": "HV2-98f96464de73",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A heater draws a constant 1200 W for 3 h. What electrical energy is used?",
+    "b_en": "A heater draws a constant 2000 W for 1.5 h. What electrical energy is used?"
+  },
+  {
+    "a": "HV2-35dbf892646d",
+    "b": "HV2-2ed9cb2769e6",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A motor delivers 1 mechanical hp at efficiency 0.75. Using 746 W/hp, what electrical input power is required?",
+    "b_en": "A motor delivers 2 mechanical hp at efficiency 0.9. Using 746 W/hp, what electrical input power is required?"
+  },
+  {
+    "a": "HV2-72be51d1fc9e",
+    "b": "HV2-5bfd18818d52",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 20 Ω and 40 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 20 Ω and 40 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-72be51d1fc9e",
+    "b": "HV2-160d9094cc17",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two ideal resistors 20 Ω and 40 Ω are in series. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 30 Ω and 60 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-72be51d1fc9e",
+    "b": "HV2-ea430141da02",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 20 Ω and 40 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 30 Ω and 60 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-e0fcf93a0013",
+    "b": "HV2-ad40c3c288d4",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A 120 V DC supply feeds series resistors 20 Ω and 40 Ω. What is the voltage across the 40 Ω resistor?",
+    "b_en": "A 240 V DC supply feeds series resistors 30 Ω and 60 Ω. What is the voltage across the 60 Ω resistor?"
+  },
+  {
+    "a": "HV2-5bfd18818d52",
+    "b": "HV2-160d9094cc17",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Ideal 20 Ω and 40 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Two ideal resistors 30 Ω and 60 Ω are in series. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-5bfd18818d52",
+    "b": "HV2-ea430141da02",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Ideal 20 Ω and 40 Ω resistors are in parallel. What is equivalent resistance?",
+    "b_en": "Ideal 30 Ω and 60 Ω resistors are in parallel. What is equivalent resistance?"
+  },
+  {
+    "a": "HV2-5dbee4d99777",
+    "b": "HV2-5debdb6f7850",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "Two parallel DC branches draw 3 A and 6 A. What is their combined supply current?",
+    "b_en": "Two parallel DC branches draw 4 A and 8 A. What is their combined supply current?"
+  },
+  {
+    "a": "HV2-1f912f2d0a33",
+    "b": "HV2-de6e30c254ce",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A suitable clamp shows 12 A with one insulated test conductor passing through 4 times in the same direction. What is the conductor current?",
+    "b_en": "A suitable clamp shows 20 A with one insulated test conductor passing through 5 times in the same direction. What is the conductor current?"
+  },
+  {
+    "a": "HV2-377b5d42718d",
+    "b": "HV2-c5bb240e0eb0",
+    "similarity": 1.0,
+    "classification": "intentional_parameter_variant",
+    "a_en": "A nominal 200 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?",
+    "b_en": "A nominal 1000 Ω resistor has a gold ±5% tolerance band. What is its allowed deviation from nominal?"
+  },
+  {
+    "a": "HV2-160d9094cc17",
+    "b": "HV2-ea430141da02",
+    "similarity": 0.625,
+    "classification": "manual_review_candidate",
+    "a_en": "Two ideal resistors 30 Ω and 60 Ω are in series. What is equivalent resistance?",
+    "b_en": "Ideal 30 Ω and 60 Ω resistors are in parallel. What is equivalent resistance?"
+  }
+]

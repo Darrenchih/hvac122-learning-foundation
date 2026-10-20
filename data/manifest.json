@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "questions": 300,
+  "knowledge": 74,
+  "countsByType": {
+    "recall": 60,
+    "understanding": 105,
+    "application": 90,
+    "calculation": 45
+  },
+  "countsByChapter": {
+    "2": 77,
+    "1": 43,
+    "3": 63,
+    "4": 58,
+    "5": 59
+  },
+  "structuralChecksPassed": 300,
+  "calculationChecksPassed": 45,
+  "originalSourceVerified": 0,
+  "expertReviewed": 0,
+  "pendingSourceOrExpertReview": 300,
+  "nearDuplicatePairs": 54,
+  "bankSha256": "e3c20d5714f22ebeefd25ac22c662cb2fbc4c57383af89c09c5b7891435154fc",
+  "distribution": "MIT project review; private originals excluded"
+}
