@@ -1,7 +1,14 @@
 """Package local deliverables only; never uploads any content."""
-import pathlib,zipfile,hashlib,json,sys,re
+import pathlib,zipfile,hashlib,json,sys,re,subprocess
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-files=[p for p in sorted(ROOT.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc' and p.name!='delivery_manifest.json']
+# Package only tracked project files when a Git checkout is available; never include .git or private/runtime files.
+if (ROOT/'.git').exists():
+ tracked=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode('utf-8').split('\0')
+ files=[ROOT/name for name in tracked if name and (ROOT/name).is_file() and name!='reports/delivery_manifest.json']
+else:
+ excluded={'.git','__pycache__','node_modules','source','private','uploads','backups','.browser-profile'}
+ files=[p for p in sorted(ROOT.rglob('*')) if p.is_file() and not (set(p.relative_to(ROOT).parts)&excluded) and p.suffix not in ['.pyc','.log','.zip','.pdf','.pptx','.docx','.pem','.key'] and p.name not in ['delivery_manifest.json','test-results.json','browser-results.json','content-browser-results.json'] and not p.name.startswith('.env')]
+
 manifest={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
 mp=ROOT/'reports/delivery_manifest.json';mp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8');files.append(mp)
 name=sys.argv[1] if len(sys.argv)>1 else 'HVAC122_OpenSource_v2_1'
